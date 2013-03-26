@@ -1,0 +1,962 @@
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\projects\WebDriver\lib\chromedriver.exe
+[1.422][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.423][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.271][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[2.289][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f)
+[2.289][FINE]:      Command finished (/session/3628d009baccf3322ae7c29d9581b06f) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "25.0.1364.172",
+      "webStorageEnabled": true
+   }
+}
+
+[2.328][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f/window/current/size) with params {
+   "height": 768,
+   "width": 1024,
+   "windowHandle": "current"
+}
+
+[2.328][FINER]:     Waiting for all views to stop loading...
+[2.329][FINER]:     Done waiting for all views to stop loading
+[2.465][FINER]:     Waiting for all views to stop loading...
+[2.466][FINER]:     Done waiting for all views to stop loading
+[2.466][FINE]:      Command finished (/session/3628d009baccf3322ae7c29d9581b06f/window/current/size) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.490][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/recherche"
+}
+
+[2.490][FINER]:     Waiting for all views to stop loading...
+[2.491][FINER]:     Done waiting for all views to stop loading
+[10.385][FINER]:    Waiting for all views to stop loading...
+[10.391][FINER]:    Done waiting for all views to stop loading
+[10.391][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[10.401][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[10.402][FINER]:    Waiting for all views to stop loading...
+[10.402][FINER]:    Done waiting for all views to stop loading
+[10.407][FINER]:    Waiting for all views to stop loading...
+[10.407][FINER]:    Done waiting for all views to stop loading
+[10.407][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EWiktionary\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan class=\"content\"\u003E\u003Cabbr titl..."
+}
+
+[10.423][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[10.424][FINER]:    Waiting for all views to stop loading...
+[10.424][FINER]:    Done waiting for all views to stop loading
+[10.443][FINER]:    Waiting for all views to stop loading...
+[10.444][FINER]:    Done waiting for all views to stop loading
+[10.444][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[10.446][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[10.446][FINER]:    Waiting for all views to stop loading...
+[10.447][FINER]:    Done waiting for all views to stop loading
+[10.455][FINER]:    Waiting for all views to stop loading...
+[10.455][FINER]:    Done waiting for all views to stop loading
+[10.456][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[10.460][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/absquatulate"
+}
+
+[10.460][FINER]:    Waiting for all views to stop loading...
+[10.460][FINER]:    Done waiting for all views to stop loading
+[14.385][FINER]:    Waiting for all views to stop loading...
+[14.387][FINER]:    Done waiting for all views to stop loading
+[14.388][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.392][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[14.392][FINER]:    Waiting for all views to stop loading...
+[14.395][FINER]:    Done waiting for all views to stop loading
+[14.403][FINER]:    Waiting for all views to stop loading...
+[14.403][FINER]:    Done waiting for all views to stop loading
+[14.403][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[14.407][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[14.407][FINER]:    Waiting for all views to stop loading...
+[14.408][FINER]:    Done waiting for all views to stop loading
+[14.420][FINER]:    Waiting for all views to stop loading...
+[14.420][FINER]:    Done waiting for all views to stop loading
+[14.420][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324222818"
+   } ]
+}
+
+[14.427][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[14.427][FINER]:    Waiting for all views to stop loading...
+[14.427][FINER]:    Done waiting for all views to stop loading
+[14.436][FINER]:    Waiting for all views to stop loading...
+[14.436][FINER]:    Done waiting for all views to stop loading
+[14.436][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324222818"
+   } ]
+}
+
+[14.445][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[14.445][FINER]:    Waiting for all views to stop loading...
+[14.445][FINER]:    Done waiting for all views to stop loading
+[14.451][FINER]:    Waiting for all views to stop loading...
+[14.451][FINER]:    Done waiting for all views to stop loading
+[14.451][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nBlended jocular mock-Latin word. Probably made up of the following parts: Latin ab..."
+}
+
+[14.454][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/perspicacious"
+}
+
+[14.454][FINER]:    Waiting for all views to stop loading...
+[14.454][FINER]:    Done waiting for all views to stop loading
+[16.607][FINER]:    Waiting for all views to stop loading...
+[16.611][FINER]:    Done waiting for all views to stop loading
+[16.611][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.616][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[16.616][FINER]:    Waiting for all views to stop loading...
+[16.622][FINER]:    Done waiting for all views to stop loading
+[16.632][FINER]:    Waiting for all views to stop loading...
+[16.632][FINER]:    Done waiting for all views to stop loading
+[16.632][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[16.650][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[16.650][FINER]:    Waiting for all views to stop loading...
+[16.653][FINER]:    Done waiting for all views to stop loading
+[16.666][FINER]:    Waiting for all views to stop loading...
+[16.668][FINER]:    Done waiting for all views to stop loading
+[16.668][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324225066"
+   } ]
+}
+
+[16.677][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[16.677][FINER]:    Waiting for all views to stop loading...
+[16.678][FINER]:    Done waiting for all views to stop loading
+[16.688][FINER]:    Waiting for all views to stop loading...
+[16.688][FINER]:    Done waiting for all views to stop loading
+[16.688][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324225066"
+   } ]
+}
+
+[16.692][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[16.692][FINER]:    Waiting for all views to stop loading...
+[16.693][FINER]:    Done waiting for all views to stop loading
+[16.695][FINER]:    Waiting for all views to stop loading...
+[16.695][FINER]:    Done waiting for all views to stop loading
+[16.696][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFirst attested 1548, from Late Latin perspic\u0101cit\u0101s\u00A0(\"discernment\"), from Latin ..."
+}
+
+[16.708][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/teleology"
+}
+
+[16.708][FINER]:    Waiting for all views to stop loading...
+[16.709][FINER]:    Done waiting for all views to stop loading
+[19.429][FINER]:    Waiting for all views to stop loading...
+[19.429][FINER]:    Done waiting for all views to stop loading
+[19.429][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[19.433][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[19.433][FINER]:    Waiting for all views to stop loading...
+[19.434][FINER]:    Done waiting for all views to stop loading
+[19.442][FINER]:    Waiting for all views to stop loading...
+[19.442][FINER]:    Done waiting for all views to stop loading
+[19.442][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[19.447][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[19.447][FINER]:    Waiting for all views to stop loading...
+[19.447][FINER]:    Done waiting for all views to stop loading
+[19.461][FINER]:    Waiting for all views to stop loading...
+[19.462][FINER]:    Done waiting for all views to stop loading
+[19.462][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324227860"
+   } ]
+}
+
+[19.465][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[19.465][FINER]:    Waiting for all views to stop loading...
+[19.465][FINER]:    Done waiting for all views to stop loading
+[19.482][FINER]:    Waiting for all views to stop loading...
+[19.484][FINER]:    Done waiting for all views to stop loading
+[19.484][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324227860"
+   } ]
+}
+
+[19.488][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[19.488][FINER]:    Waiting for all views to stop loading...
+[19.490][FINER]:    Done waiting for all views to stop loading
+[19.493][FINER]:    Waiting for all views to stop loading...
+[19.494][FINER]:    Done waiting for all views to stop loading
+[19.494][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrom Ancient Greek \u03C4\u03AD\u03BB\u03BF\u03C2\u00A0(telos,\u00A0\"purpose\") + \u03BB\u03CC\u03B3\u03BF\u03C2\u00A0(logos,\u00A0\"word, s..."
+}
+
+[19.497][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/monistic"
+}
+
+[19.497][FINER]:    Waiting for all views to stop loading...
+[19.497][FINER]:    Done waiting for all views to stop loading
+[20.698][FINER]:    Waiting for all views to stop loading...
+[20.698][FINER]:    Done waiting for all views to stop loading
+[20.698][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[20.701][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[20.701][FINER]:    Waiting for all views to stop loading...
+[20.701][FINER]:    Done waiting for all views to stop loading
+[20.713][FINER]:    Waiting for all views to stop loading...
+[20.713][FINER]:    Done waiting for all views to stop loading
+[20.713][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003ECentury Dictionary and Cyclopedia\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan cla..."
+}
+
+[20.716][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[20.716][FINER]:    Waiting for all views to stop loading...
+[20.717][FINER]:    Done waiting for all views to stop loading
+[20.727][FINER]:    Waiting for all views to stop loading...
+[20.727][FINER]:    Done waiting for all views to stop loading
+[20.727][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324229129"
+   } ]
+}
+
+[20.730][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[20.730][FINER]:    Waiting for all views to stop loading...
+[20.730][FINER]:    Done waiting for all views to stop loading
+[20.738][FINER]:    Waiting for all views to stop loading...
+[20.739][FINER]:    Done waiting for all views to stop loading
+[20.739][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324229129"
+   } ]
+}
+
+[20.743][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[20.743][FINER]:    Waiting for all views to stop loading...
+[20.744][FINER]:    Done waiting for all views to stop loading
+[20.746][FINER]:    Waiting for all views to stop loading...
+[20.747][FINER]:    Done waiting for all views to stop loading
+[20.747][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrom monism. (Wiktionary)\n\n\n"
+}
+
+[20.750][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/theogony"
+}
+
+[20.750][FINER]:    Waiting for all views to stop loading...
+[20.750][FINER]:    Done waiting for all views to stop loading
+[22.039][FINER]:    Waiting for all views to stop loading...
+[22.041][FINER]:    Done waiting for all views to stop loading
+[22.041][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[22.044][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[22.045][FINER]:    Waiting for all views to stop loading...
+[22.048][FINER]:    Done waiting for all views to stop loading
+[22.083][FINER]:    Waiting for all views to stop loading...
+[22.083][FINER]:    Done waiting for all views to stop loading
+[22.084][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[22.088][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[22.088][FINER]:    Waiting for all views to stop loading...
+[22.089][FINER]:    Done waiting for all views to stop loading
+[22.101][FINER]:    Waiting for all views to stop loading...
+[22.101][FINER]:    Done waiting for all views to stop loading
+[22.101][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[22.104][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[22.104][FINER]:    Waiting for all views to stop loading...
+[22.104][FINER]:    Done waiting for all views to stop loading
+[22.116][FINER]:    Waiting for all views to stop loading...
+[22.118][FINER]:    Done waiting for all views to stop loading
+[22.118][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[22.121][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/instantiation"
+}
+
+[22.121][FINER]:    Waiting for all views to stop loading...
+[22.127][FINER]:    Done waiting for all views to stop loading
+[23.755][FINER]:    Waiting for all views to stop loading...
+[23.756][FINER]:    Done waiting for all views to stop loading
+[23.756][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.759][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[23.759][FINER]:    Waiting for all views to stop loading...
+[23.759][FINER]:    Done waiting for all views to stop loading
+[23.803][FINER]:    Waiting for all views to stop loading...
+[23.804][FINER]:    Done waiting for all views to stop loading
+[23.804][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EWiktionary\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan class=\"content\"\u003E\u003Cabbr titl..."
+}
+
+[23.807][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[23.807][FINER]:    Waiting for all views to stop loading...
+[23.808][FINER]:    Done waiting for all views to stop loading
+[23.822][FINER]:    Waiting for all views to stop loading...
+[23.823][FINER]:    Done waiting for all views to stop loading
+[23.823][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[23.826][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[23.826][FINER]:    Waiting for all views to stop loading...
+[23.826][FINER]:    Done waiting for all views to stop loading
+[23.835][FINER]:    Waiting for all views to stop loading...
+[23.835][FINER]:    Done waiting for all views to stop loading
+[23.835][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [  ]
+}
+
+[23.839][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/inchoate"
+}
+
+[23.839][FINER]:    Waiting for all views to stop loading...
+[23.839][FINER]:    Done waiting for all views to stop loading
+[26.978][FINER]:    Waiting for all views to stop loading...
+[26.986][FINER]:    Done waiting for all views to stop loading
+[26.986][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[26.989][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[26.989][FINER]:    Waiting for all views to stop loading...
+[26.989][FINER]:    Done waiting for all views to stop loading
+[26.996][FINER]:    Waiting for all views to stop loading...
+[26.996][FINER]:    Done waiting for all views to stop loading
+[26.996][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[27.001][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[27.001][FINER]:    Waiting for all views to stop loading...
+[27.001][FINER]:    Done waiting for all views to stop loading
+[27.013][FINER]:    Waiting for all views to stop loading...
+[27.013][FINER]:    Done waiting for all views to stop loading
+[27.013][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324235414"
+   } ]
+}
+
+[27.016][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[27.017][FINER]:    Waiting for all views to stop loading...
+[27.017][FINER]:    Done waiting for all views to stop loading
+[27.029][FINER]:    Waiting for all views to stop loading...
+[27.029][FINER]:    Done waiting for all views to stop loading
+[27.029][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324235414"
+   } ]
+}
+
+[27.032][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[27.032][FINER]:    Waiting for all views to stop loading...
+[27.033][FINER]:    Done waiting for all views to stop loading
+[27.036][FINER]:    Waiting for all views to stop loading...
+[27.036][FINER]:    Done waiting for all views to stop loading
+[27.036][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrom Latin incoh\u0101tus\u00A0(\"begun, unfinished\"), perfect passive participle of incoh\uFFFD..."
+}
+
+[27.039][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/auriferous"
+}
+
+[27.039][FINER]:    Waiting for all views to stop loading...
+[27.040][FINER]:    Done waiting for all views to stop loading
+[30.048][FINER]:    Waiting for all views to stop loading...
+[30.048][FINER]:    Done waiting for all views to stop loading
+[30.048][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[30.054][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[30.054][FINER]:    Waiting for all views to stop loading...
+[30.071][FINER]:    Done waiting for all views to stop loading
+[30.086][FINER]:    Waiting for all views to stop loading...
+[30.089][FINER]:    Done waiting for all views to stop loading
+[30.090][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[30.094][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[30.094][FINER]:    Waiting for all views to stop loading...
+[30.097][FINER]:    Done waiting for all views to stop loading
+[30.116][FINER]:    Waiting for all views to stop loading...
+[30.117][FINER]:    Done waiting for all views to stop loading
+[30.117][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324238518"
+   } ]
+}
+
+[30.121][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[30.121][FINER]:    Waiting for all views to stop loading...
+[30.121][FINER]:    Done waiting for all views to stop loading
+[30.132][FINER]:    Waiting for all views to stop loading...
+[30.132][FINER]:    Done waiting for all views to stop loading
+[30.132][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324238518"
+   } ]
+}
+
+[30.135][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[30.135][FINER]:    Waiting for all views to stop loading...
+[30.136][FINER]:    Done waiting for all views to stop loading
+[30.139][FINER]:    Waiting for all views to stop loading...
+[30.139][FINER]:    Done waiting for all views to stop loading
+[30.139][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrom Latin aurifer, gold-bearing : aurum, gold + -fer, -fer. (American Heritage\u00AE ..."
+}
+
+[30.144][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/nitre"
+}
+
+[30.144][FINER]:    Waiting for all views to stop loading...
+[30.146][FINER]:    Done waiting for all views to stop loading
+[31.515][FINER]:    Waiting for all views to stop loading...
+[31.517][FINER]:    Done waiting for all views to stop loading
+[31.518][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[31.522][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[31.522][FINER]:    Waiting for all views to stop loading...
+[31.524][FINER]:    Done waiting for all views to stop loading
+[31.529][FINER]:    Waiting for all views to stop loading...
+[31.531][FINER]:    Done waiting for all views to stop loading
+[31.531][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[31.535][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[31.535][FINER]:    Waiting for all views to stop loading...
+[31.536][FINER]:    Done waiting for all views to stop loading
+[31.545][FINER]:    Waiting for all views to stop loading...
+[31.545][FINER]:    Done waiting for all views to stop loading
+[31.545][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324239945"
+   } ]
+}
+
+[31.548][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[31.548][FINER]:    Waiting for all views to stop loading...
+[31.549][FINER]:    Done waiting for all views to stop loading
+[31.559][FINER]:    Waiting for all views to stop loading...
+[31.561][FINER]:    Done waiting for all views to stop loading
+[31.561][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324239945"
+   } ]
+}
+
+[31.566][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[31.566][FINER]:    Waiting for all views to stop loading...
+[31.566][FINER]:    Done waiting for all views to stop loading
+[31.581][FINER]:    Waiting for all views to stop loading...
+[31.581][FINER]:    Done waiting for all views to stop loading
+[31.581][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrench nitre, Latin nitrum native soda, natron. (Wiktionary)\n\n\n"
+}
+
+[31.584][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/homiletic"
+}
+
+[31.584][FINER]:    Waiting for all views to stop loading...
+[31.585][FINER]:    Done waiting for all views to stop loading
+[33.319][FINER]:    Waiting for all views to stop loading...
+[33.320][FINER]:    Done waiting for all views to stop loading
+[33.320][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[33.323][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[33.323][FINER]:    Waiting for all views to stop loading...
+[33.323][FINER]:    Done waiting for all views to stop loading
+[33.327][FINER]:    Waiting for all views to stop loading...
+[33.327][FINER]:    Done waiting for all views to stop loading
+[33.327][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[33.331][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[33.331][FINER]:    Waiting for all views to stop loading...
+[33.332][FINER]:    Done waiting for all views to stop loading
+[33.340][FINER]:    Waiting for all views to stop loading...
+[33.340][FINER]:    Done waiting for all views to stop loading
+[33.340][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324241742"
+   } ]
+}
+
+[33.343][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[33.343][FINER]:    Waiting for all views to stop loading...
+[33.343][FINER]:    Done waiting for all views to stop loading
+[33.352][FINER]:    Waiting for all views to stop loading...
+[33.352][FINER]:    Done waiting for all views to stop loading
+[33.352][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324241742"
+   } ]
+}
+
+[33.355][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[33.355][FINER]:    Waiting for all views to stop loading...
+[33.355][FINER]:    Done waiting for all views to stop loading
+[33.359][FINER]:    Waiting for all views to stop loading...
+[33.359][FINER]:    Done waiting for all views to stop loading
+[33.359][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nLate Latin hom\u012Bl\u0113ticus, from Greek hom\u012Bl\u0113tikos, of conversation, from hom\u012Bl\u0113..."
+}
+
+[33.362][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
+   "url": "http://www.wordnik.com/words/glabrous"
+}
+
+[33.362][FINER]:    Waiting for all views to stop loading...
+[33.362][FINER]:    Done waiting for all views to stop loading
+[35.141][FINER]:    Waiting for all views to stop loading...
+[35.141][FINER]:    Done waiting for all views to stop loading
+[35.141][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[35.144][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $('div.definitions')[1].innerHTML;"
+}
+
+[35.144][FINER]:    Waiting for all views to stop loading...
+[35.144][FINER]:    Done waiting for all views to stop loading
+[35.148][FINER]:    Waiting for all views to stop loading...
+[35.148][FINER]:    Done waiting for all views to stop loading
+[35.148][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+}
+
+[35.152][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[35.153][FINER]:    Waiting for all views to stop loading...
+[35.153][FINER]:    Done waiting for all views to stop loading
+[35.187][FINER]:    Waiting for all views to stop loading...
+[35.192][FINER]:    Done waiting for all views to stop loading
+[35.192][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324243584"
+   } ]
+}
+
+[35.200][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
+   "using": "xpath",
+   "value": "//div[@data-name='etymologies']"
+}
+
+[35.200][FINER]:    Waiting for all views to stop loading...
+[35.203][FINER]:    Done waiting for all views to stop loading
+[35.231][FINER]:    Waiting for all views to stop loading...
+[35.231][FINER]:    Done waiting for all views to stop loading
+[35.231][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1364324243584"
+   } ]
+}
+
+[35.236][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+   "args": [  ],
+   "script": "return $(\"[data-name='etymologies']\").text()"
+}
+
+[35.236][FINER]:    Waiting for all views to stop loading...
+[35.237][FINER]:    Done waiting for all views to stop loading
+[35.263][FINER]:    Waiting for all views to stop loading...
+[35.275][FINER]:    Done waiting for all views to stop loading
+[35.275][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
+   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+   "status": 0,
+   "value": "\nEtymologies\n\n\nFrom Latin glaber\u00A0(\"smooth, hairless, bald\") (Wiktionary)\nFrom Latin glaber, glab..."
+}
+
+[35.279][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f)
+[40.224][INFO]:     Chrome shutdown
