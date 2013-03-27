@@ -1,5 +1,5 @@
 [0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\projects\WebDriver\lib\chromedriver.exe
-[1.422][FINE]:      Initializing session with capabilities {
+[1.180][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -10,11 +10,11 @@
    "version": ""
 }
 
-[1.423][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
-[2.271][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
-[2.289][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f)
-[2.289][FINE]:      Command finished (/session/3628d009baccf3322ae7c29d9581b06f) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[1.180][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[1.889][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[1.909][FINE]:      Command received (/session/22e36fdca1bff5904c2214149f2a59c1)
+[1.910][FINE]:      Command finished (/session/22e36fdca1bff5904c2214149f2a59c1) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -37,926 +37,3420 @@
    }
 }
 
-[2.328][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f/window/current/size) with params {
+[1.968][FINE]:      Command received (/session/22e36fdca1bff5904c2214149f2a59c1/window/current/size) with params {
    "height": 768,
    "width": 1024,
    "windowHandle": "current"
 }
 
-[2.328][FINER]:     Waiting for all views to stop loading...
-[2.329][FINER]:     Done waiting for all views to stop loading
-[2.465][FINER]:     Waiting for all views to stop loading...
-[2.466][FINER]:     Done waiting for all views to stop loading
-[2.466][FINE]:      Command finished (/session/3628d009baccf3322ae7c29d9581b06f/window/current/size) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[1.968][FINER]:     Waiting for all views to stop loading...
+[1.970][FINER]:     Done waiting for all views to stop loading
+[2.058][FINER]:     Waiting for all views to stop loading...
+[2.112][FINER]:     Done waiting for all views to stop loading
+[2.112][FINE]:      Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/window/current/size) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[2.490][FINE]:      Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/recherche"
+[2.137][FINE]:      Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hurlyburly"
 }
 
-[2.490][FINER]:     Waiting for all views to stop loading...
-[2.491][FINER]:     Done waiting for all views to stop loading
-[10.385][FINER]:    Waiting for all views to stop loading...
-[10.391][FINER]:    Done waiting for all views to stop loading
-[10.391][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[2.137][FINER]:     Waiting for all views to stop loading...
+[2.141][FINER]:     Done waiting for all views to stop loading
+[9.735][FINER]:     Waiting for all views to stop loading...
+[9.736][FINER]:     Done waiting for all views to stop loading
+[9.736][FINE]:      Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[10.401][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[10.745][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[10.402][FINER]:    Waiting for all views to stop loading...
-[10.402][FINER]:    Done waiting for all views to stop loading
-[10.407][FINER]:    Waiting for all views to stop loading...
-[10.407][FINER]:    Done waiting for all views to stop loading
-[10.407][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EWiktionary\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan class=\"content\"\u003E\u003Cabbr titl..."
+[10.745][FINER]:    Waiting for all views to stop loading...
+[10.745][FINER]:    Done waiting for all views to stop loading
+[10.753][FINER]:    Waiting for all views to stop loading...
+[10.753][FINER]:    Done waiting for all views to stop loading
+[10.753][WARNING]:  Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
 }
 
-[10.423][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[10.759][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/nave"
 }
 
-[10.424][FINER]:    Waiting for all views to stop loading...
-[10.424][FINER]:    Done waiting for all views to stop loading
-[10.443][FINER]:    Waiting for all views to stop loading...
-[10.444][FINER]:    Done waiting for all views to stop loading
-[10.444][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[10.446][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[10.446][FINER]:    Waiting for all views to stop loading...
-[10.447][FINER]:    Done waiting for all views to stop loading
-[10.455][FINER]:    Waiting for all views to stop loading...
-[10.455][FINER]:    Done waiting for all views to stop loading
-[10.456][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[10.460][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/absquatulate"
-}
-
-[10.460][FINER]:    Waiting for all views to stop loading...
-[10.460][FINER]:    Done waiting for all views to stop loading
-[14.385][FINER]:    Waiting for all views to stop loading...
-[14.387][FINER]:    Done waiting for all views to stop loading
-[14.388][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[10.759][FINER]:    Waiting for all views to stop loading...
+[10.759][FINER]:    Done waiting for all views to stop loading
+[13.901][FINER]:    Waiting for all views to stop loading...
+[13.908][FINER]:    Done waiting for all views to stop loading
+[13.908][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[14.392][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[14.921][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[14.392][FINER]:    Waiting for all views to stop loading...
-[14.395][FINER]:    Done waiting for all views to stop loading
-[14.403][FINER]:    Waiting for all views to stop loading...
-[14.403][FINER]:    Done waiting for all views to stop loading
-[14.403][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[14.921][FINER]:    Waiting for all views to stop loading...
+[14.921][FINER]:    Done waiting for all views to stop loading
+[14.926][FINER]:    Waiting for all views to stop loading...
+[14.926][FINER]:    Done waiting for all views to stop loading
+[14.926][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "nave\u00A01 \u00A0(nv)\nn.\nThe central part of a church, extending from the narthex to the chancel and fla..."
 }
 
-[14.407][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[14.930][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/direful"
 }
 
-[14.407][FINER]:    Waiting for all views to stop loading...
-[14.408][FINER]:    Done waiting for all views to stop loading
-[14.420][FINER]:    Waiting for all views to stop loading...
-[14.420][FINER]:    Done waiting for all views to stop loading
-[14.420][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324222818"
-   } ]
-}
-
-[14.427][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[14.427][FINER]:    Waiting for all views to stop loading...
-[14.427][FINER]:    Done waiting for all views to stop loading
-[14.436][FINER]:    Waiting for all views to stop loading...
-[14.436][FINER]:    Done waiting for all views to stop loading
-[14.436][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324222818"
-   } ]
-}
-
-[14.445][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[14.445][FINER]:    Waiting for all views to stop loading...
-[14.445][FINER]:    Done waiting for all views to stop loading
-[14.451][FINER]:    Waiting for all views to stop loading...
-[14.451][FINER]:    Done waiting for all views to stop loading
-[14.451][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nBlended jocular mock-Latin word. Probably made up of the following parts: Latin ab..."
-}
-
-[14.454][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/perspicacious"
-}
-
-[14.454][FINER]:    Waiting for all views to stop loading...
-[14.454][FINER]:    Done waiting for all views to stop loading
-[16.607][FINER]:    Waiting for all views to stop loading...
-[16.611][FINER]:    Done waiting for all views to stop loading
-[16.611][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[14.930][FINER]:    Waiting for all views to stop loading...
+[14.930][FINER]:    Done waiting for all views to stop loading
+[18.217][FINER]:    Waiting for all views to stop loading...
+[18.220][FINER]:    Done waiting for all views to stop loading
+[18.220][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[16.616][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[19.222][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[16.616][FINER]:    Waiting for all views to stop loading...
-[16.622][FINER]:    Done waiting for all views to stop loading
-[16.632][FINER]:    Waiting for all views to stop loading...
-[16.632][FINER]:    Done waiting for all views to stop loading
-[16.632][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[19.222][FINER]:    Waiting for all views to stop loading...
+[19.223][FINER]:    Done waiting for all views to stop loading
+[19.225][FINER]:    Waiting for all views to stop loading...
+[19.225][FINER]:    Done waiting for all views to stop loading
+[19.225][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "dire\u00B7ful \u00A0(drfl)\nadj.\n1. Inspiring dread; terrible.\n2. Foreshadowing evil or disaster; ominous...."
 }
 
-[16.650][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[19.229][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/whence"
 }
 
-[16.650][FINER]:    Waiting for all views to stop loading...
-[16.653][FINER]:    Done waiting for all views to stop loading
-[16.666][FINER]:    Waiting for all views to stop loading...
-[16.668][FINER]:    Done waiting for all views to stop loading
-[16.668][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324225066"
-   } ]
-}
-
-[16.677][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[16.677][FINER]:    Waiting for all views to stop loading...
-[16.678][FINER]:    Done waiting for all views to stop loading
-[16.688][FINER]:    Waiting for all views to stop loading...
-[16.688][FINER]:    Done waiting for all views to stop loading
-[16.688][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324225066"
-   } ]
-}
-
-[16.692][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[16.692][FINER]:    Waiting for all views to stop loading...
-[16.693][FINER]:    Done waiting for all views to stop loading
-[16.695][FINER]:    Waiting for all views to stop loading...
-[16.695][FINER]:    Done waiting for all views to stop loading
-[16.696][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFirst attested 1548, from Late Latin perspic\u0101cit\u0101s\u00A0(\"discernment\"), from Latin ..."
-}
-
-[16.708][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/teleology"
-}
-
-[16.708][FINER]:    Waiting for all views to stop loading...
-[16.709][FINER]:    Done waiting for all views to stop loading
-[19.429][FINER]:    Waiting for all views to stop loading...
-[19.429][FINER]:    Done waiting for all views to stop loading
-[19.429][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[19.229][FINER]:    Waiting for all views to stop loading...
+[19.229][FINER]:    Done waiting for all views to stop loading
+[22.033][FINER]:    Waiting for all views to stop loading...
+[22.035][FINER]:    Done waiting for all views to stop loading
+[22.035][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[19.433][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[23.038][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[19.433][FINER]:    Waiting for all views to stop loading...
-[19.434][FINER]:    Done waiting for all views to stop loading
-[19.442][FINER]:    Waiting for all views to stop loading...
-[19.442][FINER]:    Done waiting for all views to stop loading
-[19.442][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[23.038][FINER]:    Waiting for all views to stop loading...
+[23.117][FINER]:    Done waiting for all views to stop loading
+[23.125][FINER]:    Waiting for all views to stop loading...
+[23.125][FINER]:    Done waiting for all views to stop loading
+[23.125][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "whence \u00A0(hwns, wns)\nadv.\n1. From where; from what place: Whence came this traveler?\n2. From what..."
 }
 
-[19.447][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[23.131][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/sooth"
 }
 
-[19.447][FINER]:    Waiting for all views to stop loading...
-[19.447][FINER]:    Done waiting for all views to stop loading
-[19.461][FINER]:    Waiting for all views to stop loading...
-[19.462][FINER]:    Done waiting for all views to stop loading
-[19.462][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324227860"
-   } ]
-}
-
-[19.465][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[19.465][FINER]:    Waiting for all views to stop loading...
-[19.465][FINER]:    Done waiting for all views to stop loading
-[19.482][FINER]:    Waiting for all views to stop loading...
-[19.484][FINER]:    Done waiting for all views to stop loading
-[19.484][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324227860"
-   } ]
-}
-
-[19.488][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[19.488][FINER]:    Waiting for all views to stop loading...
-[19.490][FINER]:    Done waiting for all views to stop loading
-[19.493][FINER]:    Waiting for all views to stop loading...
-[19.494][FINER]:    Done waiting for all views to stop loading
-[19.494][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFrom Ancient Greek \u03C4\u03AD\u03BB\u03BF\u03C2\u00A0(telos,\u00A0\"purpose\") + \u03BB\u03CC\u03B3\u03BF\u03C2\u00A0(logos,\u00A0\"word, s..."
-}
-
-[19.497][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/monistic"
-}
-
-[19.497][FINER]:    Waiting for all views to stop loading...
-[19.497][FINER]:    Done waiting for all views to stop loading
-[20.698][FINER]:    Waiting for all views to stop loading...
-[20.698][FINER]:    Done waiting for all views to stop loading
-[20.698][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[23.131][FINER]:    Waiting for all views to stop loading...
+[23.132][FINER]:    Done waiting for all views to stop loading
+[26.093][FINER]:    Waiting for all views to stop loading...
+[26.095][FINER]:    Done waiting for all views to stop loading
+[26.095][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[20.701][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[27.099][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[20.701][FINER]:    Waiting for all views to stop loading...
-[20.701][FINER]:    Done waiting for all views to stop loading
-[20.713][FINER]:    Waiting for all views to stop loading...
-[20.713][FINER]:    Done waiting for all views to stop loading
-[20.713][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[27.100][FINER]:    Waiting for all views to stop loading...
+[27.100][FINER]:    Done waiting for all views to stop loading
+[27.105][FINER]:    Waiting for all views to stop loading...
+[27.106][FINER]:    Done waiting for all views to stop loading
+[27.106][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003ECentury Dictionary and Cyclopedia\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan cla..."
+   "value": "sooth \u00A0(sth) Archaic\nadj.\n1. Real; true.\n2. Soft; smooth.\nn.\nTruth; reality.\n[Middle English, fr..."
 }
 
-[20.716][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[27.112][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/dwindle"
 }
 
-[20.716][FINER]:    Waiting for all views to stop loading...
-[20.717][FINER]:    Done waiting for all views to stop loading
-[20.727][FINER]:    Waiting for all views to stop loading...
-[20.727][FINER]:    Done waiting for all views to stop loading
-[20.727][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324229129"
-   } ]
-}
-
-[20.730][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[20.730][FINER]:    Waiting for all views to stop loading...
-[20.730][FINER]:    Done waiting for all views to stop loading
-[20.738][FINER]:    Waiting for all views to stop loading...
-[20.739][FINER]:    Done waiting for all views to stop loading
-[20.739][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324229129"
-   } ]
-}
-
-[20.743][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[20.743][FINER]:    Waiting for all views to stop loading...
-[20.744][FINER]:    Done waiting for all views to stop loading
-[20.746][FINER]:    Waiting for all views to stop loading...
-[20.747][FINER]:    Done waiting for all views to stop loading
-[20.747][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFrom monism. (Wiktionary)\n\n\n"
-}
-
-[20.750][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/theogony"
-}
-
-[20.750][FINER]:    Waiting for all views to stop loading...
-[20.750][FINER]:    Done waiting for all views to stop loading
-[22.039][FINER]:    Waiting for all views to stop loading...
-[22.041][FINER]:    Done waiting for all views to stop loading
-[22.041][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[27.112][FINER]:    Waiting for all views to stop loading...
+[27.113][FINER]:    Done waiting for all views to stop loading
+[29.752][FINER]:    Waiting for all views to stop loading...
+[29.755][FINER]:    Done waiting for all views to stop loading
+[29.755][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[22.044][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[30.762][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[22.045][FINER]:    Waiting for all views to stop loading...
-[22.048][FINER]:    Done waiting for all views to stop loading
-[22.083][FINER]:    Waiting for all views to stop loading...
-[22.083][FINER]:    Done waiting for all views to stop loading
-[22.084][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[30.762][FINER]:    Waiting for all views to stop loading...
+[30.763][FINER]:    Done waiting for all views to stop loading
+[30.769][FINER]:    Waiting for all views to stop loading...
+[30.769][FINER]:    Done waiting for all views to stop loading
+[30.769][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "dwin\u00B7dle \u00A0(dwndl)\nv. dwin\u00B7dled, dwin\u00B7dling, dwin\u00B7dles\nv.intr.\nTo become gradually less until..."
 }
 
-[22.088][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[30.776][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/tempest-tost"
 }
 
-[22.088][FINER]:    Waiting for all views to stop loading...
-[22.089][FINER]:    Done waiting for all views to stop loading
-[22.101][FINER]:    Waiting for all views to stop loading...
-[22.101][FINER]:    Done waiting for all views to stop loading
-[22.101][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[22.104][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[22.104][FINER]:    Waiting for all views to stop loading...
-[22.104][FINER]:    Done waiting for all views to stop loading
-[22.116][FINER]:    Waiting for all views to stop loading...
-[22.118][FINER]:    Done waiting for all views to stop loading
-[22.118][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[22.121][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/instantiation"
-}
-
-[22.121][FINER]:    Waiting for all views to stop loading...
-[22.127][FINER]:    Done waiting for all views to stop loading
-[23.755][FINER]:    Waiting for all views to stop loading...
-[23.756][FINER]:    Done waiting for all views to stop loading
-[23.756][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[30.776][FINER]:    Waiting for all views to stop loading...
+[30.776][FINER]:    Done waiting for all views to stop loading
+[33.110][FINER]:    Waiting for all views to stop loading...
+[33.113][FINER]:    Done waiting for all views to stop loading
+[33.113][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[23.759][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[34.118][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[23.759][FINER]:    Waiting for all views to stop loading...
-[23.759][FINER]:    Done waiting for all views to stop loading
-[23.803][FINER]:    Waiting for all views to stop loading...
-[23.804][FINER]:    Done waiting for all views to stop loading
-[23.804][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[34.118][FINER]:    Waiting for all views to stop loading...
+[34.119][FINER]:    Done waiting for all views to stop loading
+[34.125][FINER]:    Waiting for all views to stop loading...
+[34.125][FINER]:    Done waiting for all views to stop loading
+[34.126][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EWiktionary\u003C/h3\u003E\n\u003Col class=\"definitions\"\u003E\n\u003Cli\u003E\u003Cspan class=\"content\"\u003E\u003Cabbr titl..."
+   "value": "Adj.\t1.\ttempest-tost - pounded or hit repeatedly by storms or adversities\nbuffeted, storm-tossed,..."
 }
 
-[23.807][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[34.137][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/withal"
 }
 
-[23.807][FINER]:    Waiting for all views to stop loading...
-[23.808][FINER]:    Done waiting for all views to stop loading
-[23.822][FINER]:    Waiting for all views to stop loading...
-[23.823][FINER]:    Done waiting for all views to stop loading
-[23.823][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[23.826][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[23.826][FINER]:    Waiting for all views to stop loading...
-[23.826][FINER]:    Done waiting for all views to stop loading
-[23.835][FINER]:    Waiting for all views to stop loading...
-[23.835][FINER]:    Done waiting for all views to stop loading
-[23.835][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [  ]
-}
-
-[23.839][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/inchoate"
-}
-
-[23.839][FINER]:    Waiting for all views to stop loading...
-[23.839][FINER]:    Done waiting for all views to stop loading
-[26.978][FINER]:    Waiting for all views to stop loading...
-[26.986][FINER]:    Done waiting for all views to stop loading
-[26.986][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[34.137][FINER]:    Waiting for all views to stop loading...
+[34.138][FINER]:    Done waiting for all views to stop loading
+[37.577][FINER]:    Waiting for all views to stop loading...
+[37.579][FINER]:    Done waiting for all views to stop loading
+[37.580][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[26.989][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[38.585][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[26.989][FINER]:    Waiting for all views to stop loading...
-[26.989][FINER]:    Done waiting for all views to stop loading
-[26.996][FINER]:    Waiting for all views to stop loading...
-[26.996][FINER]:    Done waiting for all views to stop loading
-[26.996][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[38.585][FINER]:    Waiting for all views to stop loading...
+[38.585][FINER]:    Done waiting for all views to stop loading
+[38.593][FINER]:    Waiting for all views to stop loading...
+[38.593][FINER]:    Done waiting for all views to stop loading
+[38.594][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "with\u00B7al \u00A0(w-\u00F4l, wth-)\nadv.\n1. In addition; besides: \"And, withal, a wider publicity was given ..."
 }
 
-[27.001][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[38.599][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/selfsame"
 }
 
-[27.001][FINER]:    Waiting for all views to stop loading...
-[27.001][FINER]:    Done waiting for all views to stop loading
-[27.013][FINER]:    Waiting for all views to stop loading...
-[27.013][FINER]:    Done waiting for all views to stop loading
-[27.013][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324235414"
-   } ]
-}
-
-[27.016][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[27.017][FINER]:    Waiting for all views to stop loading...
-[27.017][FINER]:    Done waiting for all views to stop loading
-[27.029][FINER]:    Waiting for all views to stop loading...
-[27.029][FINER]:    Done waiting for all views to stop loading
-[27.029][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324235414"
-   } ]
-}
-
-[27.032][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[27.032][FINER]:    Waiting for all views to stop loading...
-[27.033][FINER]:    Done waiting for all views to stop loading
-[27.036][FINER]:    Waiting for all views to stop loading...
-[27.036][FINER]:    Done waiting for all views to stop loading
-[27.036][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFrom Latin incoh\u0101tus\u00A0(\"begun, unfinished\"), perfect passive participle of incoh\uFFFD..."
-}
-
-[27.039][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/auriferous"
-}
-
-[27.039][FINER]:    Waiting for all views to stop loading...
-[27.040][FINER]:    Done waiting for all views to stop loading
-[30.048][FINER]:    Waiting for all views to stop loading...
-[30.048][FINER]:    Done waiting for all views to stop loading
-[30.048][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[38.600][FINER]:    Waiting for all views to stop loading...
+[38.600][FINER]:    Done waiting for all views to stop loading
+[42.592][FINER]:    Waiting for all views to stop loading...
+[42.595][FINER]:    Done waiting for all views to stop loading
+[42.595][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[30.054][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[43.599][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[30.054][FINER]:    Waiting for all views to stop loading...
-[30.071][FINER]:    Done waiting for all views to stop loading
-[30.086][FINER]:    Waiting for all views to stop loading...
-[30.089][FINER]:    Done waiting for all views to stop loading
-[30.090][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[43.600][FINER]:    Waiting for all views to stop loading...
+[43.600][FINER]:    Done waiting for all views to stop loading
+[43.606][FINER]:    Waiting for all views to stop loading...
+[43.606][FINER]:    Done waiting for all views to stop loading
+[43.606][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "self\u00B7same \u00A0(slfsm)\nadj.\nBeing the very same; identical.\nselfsameness n.\n"
 }
 
-[30.094][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[43.612][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/wrack"
 }
 
-[30.094][FINER]:    Waiting for all views to stop loading...
-[30.097][FINER]:    Done waiting for all views to stop loading
-[30.116][FINER]:    Waiting for all views to stop loading...
-[30.117][FINER]:    Done waiting for all views to stop loading
-[30.117][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324238518"
-   } ]
-}
-
-[30.121][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[30.121][FINER]:    Waiting for all views to stop loading...
-[30.121][FINER]:    Done waiting for all views to stop loading
-[30.132][FINER]:    Waiting for all views to stop loading...
-[30.132][FINER]:    Done waiting for all views to stop loading
-[30.132][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324238518"
-   } ]
-}
-
-[30.135][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[30.135][FINER]:    Waiting for all views to stop loading...
-[30.136][FINER]:    Done waiting for all views to stop loading
-[30.139][FINER]:    Waiting for all views to stop loading...
-[30.139][FINER]:    Done waiting for all views to stop loading
-[30.139][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFrom Latin aurifer, gold-bearing : aurum, gold + -fer, -fer. (American Heritage\u00AE ..."
-}
-
-[30.144][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/nitre"
-}
-
-[30.144][FINER]:    Waiting for all views to stop loading...
-[30.146][FINER]:    Done waiting for all views to stop loading
-[31.515][FINER]:    Waiting for all views to stop loading...
-[31.517][FINER]:    Done waiting for all views to stop loading
-[31.518][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[43.612][FINER]:    Waiting for all views to stop loading...
+[43.613][FINER]:    Done waiting for all views to stop loading
+[45.854][FINER]:    Waiting for all views to stop loading...
+[45.857][FINER]:    Done waiting for all views to stop loading
+[45.857][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[31.522][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[46.862][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[31.522][FINER]:    Waiting for all views to stop loading...
-[31.524][FINER]:    Done waiting for all views to stop loading
-[31.529][FINER]:    Waiting for all views to stop loading...
-[31.531][FINER]:    Done waiting for all views to stop loading
-[31.531][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[46.862][FINER]:    Waiting for all views to stop loading...
+[46.863][FINER]:    Done waiting for all views to stop loading
+[46.870][FINER]:    Waiting for all views to stop loading...
+[46.871][FINER]:    Done waiting for all views to stop loading
+[46.871][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "wrack\u00A01 also rack \u00A0(rk)\nn.\n1. Destruction or ruin.\n2. A remnant or vestige of something destroy..."
 }
 
-[31.535][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[46.876][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/unfix"
 }
 
-[31.535][FINER]:    Waiting for all views to stop loading...
-[31.536][FINER]:    Done waiting for all views to stop loading
-[31.545][FINER]:    Waiting for all views to stop loading...
-[31.545][FINER]:    Done waiting for all views to stop loading
-[31.545][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324239945"
-   } ]
-}
-
-[31.548][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[31.548][FINER]:    Waiting for all views to stop loading...
-[31.549][FINER]:    Done waiting for all views to stop loading
-[31.559][FINER]:    Waiting for all views to stop loading...
-[31.561][FINER]:    Done waiting for all views to stop loading
-[31.561][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324239945"
-   } ]
-}
-
-[31.566][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[31.566][FINER]:    Waiting for all views to stop loading...
-[31.566][FINER]:    Done waiting for all views to stop loading
-[31.581][FINER]:    Waiting for all views to stop loading...
-[31.581][FINER]:    Done waiting for all views to stop loading
-[31.581][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nFrench nitre, Latin nitrum native soda, natron. (Wiktionary)\n\n\n"
-}
-
-[31.584][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/homiletic"
-}
-
-[31.584][FINER]:    Waiting for all views to stop loading...
-[31.585][FINER]:    Done waiting for all views to stop loading
-[33.319][FINER]:    Waiting for all views to stop loading...
-[33.320][FINER]:    Done waiting for all views to stop loading
-[33.320][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[46.876][FINER]:    Waiting for all views to stop loading...
+[46.877][FINER]:    Done waiting for all views to stop loading
+[50.712][FINER]:    Waiting for all views to stop loading...
+[50.714][FINER]:    Done waiting for all views to stop loading
+[50.715][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[33.323][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[51.722][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[33.323][FINER]:    Waiting for all views to stop loading...
-[33.323][FINER]:    Done waiting for all views to stop loading
-[33.327][FINER]:    Waiting for all views to stop loading...
-[33.327][FINER]:    Done waiting for all views to stop loading
-[33.327][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[51.722][FINER]:    Waiting for all views to stop loading...
+[51.723][FINER]:    Done waiting for all views to stop loading
+[51.736][FINER]:    Waiting for all views to stop loading...
+[51.736][FINER]:    Done waiting for all views to stop loading
+[51.736][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "un\u00B7fix \u00A0(n-fks)\ntr.v. un\u00B7fixed, un\u00B7fix\u00B7ing, un\u00B7fix\u00B7es\n1. To detach from what secures; unfa..."
 }
 
-[33.331][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[51.740][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/recompense"
 }
 
-[33.331][FINER]:    Waiting for all views to stop loading...
-[33.332][FINER]:    Done waiting for all views to stop loading
-[33.340][FINER]:    Waiting for all views to stop loading...
-[33.340][FINER]:    Done waiting for all views to stop loading
-[33.340][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324241742"
-   } ]
-}
-
-[33.343][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[33.343][FINER]:    Waiting for all views to stop loading...
-[33.343][FINER]:    Done waiting for all views to stop loading
-[33.352][FINER]:    Waiting for all views to stop loading...
-[33.352][FINER]:    Done waiting for all views to stop loading
-[33.352][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324241742"
-   } ]
-}
-
-[33.355][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
-   "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
-}
-
-[33.355][FINER]:    Waiting for all views to stop loading...
-[33.355][FINER]:    Done waiting for all views to stop loading
-[33.359][FINER]:    Waiting for all views to stop loading...
-[33.359][FINER]:    Done waiting for all views to stop loading
-[33.359][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": "\nEtymologies\n\n\nLate Latin hom\u012Bl\u0113ticus, from Greek hom\u012Bl\u0113tikos, of conversation, from hom\u012Bl\u0113..."
-}
-
-[33.362][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/url) with params {
-   "url": "http://www.wordnik.com/words/glabrous"
-}
-
-[33.362][FINER]:    Waiting for all views to stop loading...
-[33.362][FINER]:    Done waiting for all views to stop loading
-[35.141][FINER]:    Waiting for all views to stop loading...
-[35.141][FINER]:    Done waiting for all views to stop loading
-[35.141][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/url) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[51.740][FINER]:    Waiting for all views to stop loading...
+[51.740][FINER]:    Done waiting for all views to stop loading
+[53.502][FINER]:    Waiting for all views to stop loading...
+[53.508][FINER]:    Done waiting for all views to stop loading
+[53.508][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
    "value": {
 
    }
 }
 
-[35.144][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[54.513][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $('div.definitions')[1].innerHTML;"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[35.144][FINER]:    Waiting for all views to stop loading...
-[35.144][FINER]:    Done waiting for all views to stop loading
-[35.148][FINER]:    Waiting for all views to stop loading...
-[35.148][FINER]:    Done waiting for all views to stop loading
-[35.148][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[54.513][FINER]:    Waiting for all views to stop loading...
+[54.514][FINER]:    Done waiting for all views to stop loading
+[54.521][FINER]:    Waiting for all views to stop loading...
+[54.522][FINER]:    Done waiting for all views to stop loading
+[54.522][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\n\u003Ch3 class=\"source\"\u003EAmerican Heritage\u00AE Dictionary of the English Language, Fourth Edition\u003C/h3\u003E\n\u003C..."
+   "value": "rec\u00B7om\u00B7pense \u00A0(rkm-pns)\ntr.v. rec\u00B7om\u00B7pensed, rec\u00B7om\u00B7pens\u00B7ing, rec\u00B7om\u00B7pens\u00B7es\n1. To awa..."
 }
 
-[35.152][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
+[54.528][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hither"
 }
 
-[35.153][FINER]:    Waiting for all views to stop loading...
-[35.153][FINER]:    Done waiting for all views to stop loading
-[35.187][FINER]:    Waiting for all views to stop loading...
-[35.192][FINER]:    Done waiting for all views to stop loading
-[35.192][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[54.528][FINER]:    Waiting for all views to stop loading...
+[54.529][FINER]:    Done waiting for all views to stop loading
+[56.343][FINER]:    Waiting for all views to stop loading...
+[56.349][FINER]:    Done waiting for all views to stop loading
+[56.350][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324243584"
-   } ]
+   "value": {
+
+   }
 }
 
-[35.200][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/elements) with params {
-   "using": "xpath",
-   "value": "//div[@data-name='etymologies']"
-}
-
-[35.200][FINER]:    Waiting for all views to stop loading...
-[35.203][FINER]:    Done waiting for all views to stop loading
-[35.231][FINER]:    Waiting for all views to stop loading...
-[35.231][FINER]:    Done waiting for all views to stop loading
-[35.231][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/elements) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1364324243584"
-   } ]
-}
-
-[35.236][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f/execute) with params {
+[57.355][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
    "args": [  ],
-   "script": "return $(\"[data-name='etymologies']\").text()"
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
 }
 
-[35.236][FINER]:    Waiting for all views to stop loading...
-[35.237][FINER]:    Done waiting for all views to stop loading
-[35.263][FINER]:    Waiting for all views to stop loading...
-[35.275][FINER]:    Done waiting for all views to stop loading
-[35.275][FINE]:     Command finished (/session/3628d009baccf3322ae7c29d9581b06f/execute) with response {
-   "sessionId": "3628d009baccf3322ae7c29d9581b06f",
+[57.355][FINER]:    Waiting for all views to stop loading...
+[57.356][FINER]:    Done waiting for all views to stop loading
+[57.362][FINER]:    Waiting for all views to stop loading...
+[57.363][FINER]:    Done waiting for all views to stop loading
+[57.363][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
    "status": 0,
-   "value": "\nEtymologies\n\n\nFrom Latin glaber\u00A0(\"smooth, hairless, bald\") (Wiktionary)\nFrom Latin glaber, glab..."
+   "value": "hith\u00B7er \u00A0(hr)\nadv.\nTo or toward this place: Come hither.\nadj.\nLocated on the near side.\nIdiom:\n..."
 }
 
-[35.279][FINE]:     Command received (/session/3628d009baccf3322ae7c29d9581b06f)
-[40.224][INFO]:     Chrome shutdown
+[57.368][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hie"
+}
+
+[57.369][FINER]:    Waiting for all views to stop loading...
+[57.369][FINER]:    Done waiting for all views to stop loading
+[59.885][FINER]:    Waiting for all views to stop loading...
+[60.263][FINER]:    Done waiting for all views to stop loading
+[60.263][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[61.270][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[61.270][FINER]:    Waiting for all views to stop loading...
+[61.271][FINER]:    Done waiting for all views to stop loading
+[61.283][FINER]:    Waiting for all views to stop loading...
+[61.283][FINER]:    Done waiting for all views to stop loading
+[61.283][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "hie \u00A0(h)\nintr. & tr.v. hied, hie\u00B7ing or hy\u00B7ing (hng), hies\nTo go quickly; hasten.\n[Middle Engl..."
+}
+
+[61.289][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/compunctious"
+}
+
+[61.289][FINER]:    Waiting for all views to stop loading...
+[61.290][FINER]:    Done waiting for all views to stop loading
+[63.556][FINER]:    Waiting for all views to stop loading...
+[63.556][FINER]:    Done waiting for all views to stop loading
+[63.556][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[64.559][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[64.559][FINER]:    Waiting for all views to stop loading...
+[64.559][FINER]:    Done waiting for all views to stop loading
+[64.563][FINER]:    Waiting for all views to stop loading...
+[64.563][FINER]:    Done waiting for all views to stop loading
+[64.563][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "com\u00B7punc\u00B7tion \u00A0(km-pngkshn)\nn.\n1. A strong uneasiness caused by a sense of guilt. See Synonyms..."
+}
+
+[64.568][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/gall"
+}
+
+[64.568][FINER]:    Waiting for all views to stop loading...
+[64.568][FINER]:    Done waiting for all views to stop loading
+[67.281][FINER]:    Waiting for all views to stop loading...
+[67.284][FINER]:    Done waiting for all views to stop loading
+[67.284][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[68.289][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[68.290][FINER]:    Waiting for all views to stop loading...
+[68.290][FINER]:    Done waiting for all views to stop loading
+[68.296][FINER]:    Waiting for all views to stop loading...
+[68.297][FINER]:    Done waiting for all views to stop loading
+[68.297][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "gall\u00A01 \u00A0(g\u00F4l)\nn.\n1. See bile.\n2.\na. Bitterness of feeling; rancor.\nb. Something bitter to endu..."
+}
+
+[68.303][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/dun"
+}
+
+[68.303][FINER]:    Waiting for all views to stop loading...
+[68.303][FINER]:    Done waiting for all views to stop loading
+[71.437][FINER]:    Waiting for all views to stop loading...
+[71.438][FINER]:    Done waiting for all views to stop loading
+[71.438][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[72.443][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[72.443][FINER]:    Waiting for all views to stop loading...
+[72.444][FINER]:    Done waiting for all views to stop loading
+[72.450][FINER]:    Waiting for all views to stop loading...
+[72.451][FINER]:    Done waiting for all views to stop loading
+[72.451][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "dun\u00A01 \u00A0(dn)\ntr.v. dunned, dun\u00B7ning, duns\nTo importune (a debtor) for payment: a dunning letter..."
+}
+
+[72.457][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hautboy"
+}
+
+[72.457][FINER]:    Waiting for all views to stop loading...
+[72.457][FINER]:    Done waiting for all views to stop loading
+[74.336][FINER]:    Waiting for all views to stop loading...
+[74.338][FINER]:    Done waiting for all views to stop loading
+[74.339][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[75.343][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[75.343][FINER]:    Waiting for all views to stop loading...
+[75.344][FINER]:    Done waiting for all views to stop loading
+[75.350][FINER]:    Waiting for all views to stop loading...
+[75.350][FINER]:    Done waiting for all views to stop loading
+[75.350][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "haut\u00B7boy also haut\u00B7bois \u00A0(hboi, boi)\nn. pl. haut\u00B7boys also haut\u00B7bois (-boiz)\nAn oboe.\n[Frenc..."
+}
+
+[75.356][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/martlet"
+}
+
+[75.356][FINER]:    Waiting for all views to stop loading...
+[75.357][FINER]:    Done waiting for all views to stop loading
+[77.317][FINER]:    Waiting for all views to stop loading...
+[77.324][FINER]:    Done waiting for all views to stop loading
+[77.325][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[78.331][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[78.331][FINER]:    Waiting for all views to stop loading...
+[78.331][FINER]:    Done waiting for all views to stop loading
+[78.337][FINER]:    Waiting for all views to stop loading...
+[78.338][FINER]:    Done waiting for all views to stop loading
+[78.338][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "mart\u00B7let \u00A0(m\u00E4rtlt)\nn.\n1. See house martin.\n2. Heraldry A representation of a bird without feet..."
+}
+
+[78.344][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/mansionry"
+}
+
+[78.344][FINER]:    Waiting for all views to stop loading...
+[78.345][FINER]:    Done waiting for all views to stop loading
+[80.386][FINER]:    Waiting for all views to stop loading...
+[80.388][FINER]:    Done waiting for all views to stop loading
+[80.388][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[81.393][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[81.393][FINER]:    Waiting for all views to stop loading...
+[81.394][FINER]:    Done waiting for all views to stop loading
+[81.399][FINER]:    Waiting for all views to stop loading...
+[81.400][FINER]:    Done waiting for all views to stop loading
+[81.400][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "n.\t1.\tThe state of dwelling or residing; occupancy as a dwelling place.\n"
+}
+
+[81.406][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/buttress"
+}
+
+[81.406][FINER]:    Waiting for all views to stop loading...
+[81.407][FINER]:    Done waiting for all views to stop loading
+[83.618][FINER]:    Waiting for all views to stop loading...
+[83.618][FINER]:    Done waiting for all views to stop loading
+[83.618][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[84.623][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[84.623][FINER]:    Waiting for all views to stop loading...
+[84.624][FINER]:    Done waiting for all views to stop loading
+[84.630][FINER]:    Waiting for all views to stop loading...
+[84.631][FINER]:    Done waiting for all views to stop loading
+[84.631][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "but\u00B7tress \u00A0(btrs)\nn.\n1. A structure, usually brick or stone, built against a wall for support o..."
+}
+
+[84.638][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/courier"
+}
+
+[84.638][FINER]:    Waiting for all views to stop loading...
+[84.639][FINER]:    Done waiting for all views to stop loading
+[86.703][FINER]:    Waiting for all views to stop loading...
+[86.703][FINER]:    Done waiting for all views to stop loading
+[86.703][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[87.709][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[87.710][FINER]:    Waiting for all views to stop loading...
+[87.710][FINER]:    Done waiting for all views to stop loading
+[87.717][FINER]:    Waiting for all views to stop loading...
+[87.718][FINER]:    Done waiting for all views to stop loading
+[87.718][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "cou\u00B7ri\u00B7er \u00A0(kr-r, k\u00FBr-, kr-)\nn.\n1.\na. A messenger, especially one on official diplomatic busi..."
+}
+
+[87.724][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/afeared"
+}
+
+[87.724][FINER]:    Waiting for all views to stop loading...
+[87.725][FINER]:    Done waiting for all views to stop loading
+[89.868][FINER]:    Waiting for all views to stop loading...
+[89.869][FINER]:    Done waiting for all views to stop loading
+[89.869][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[90.874][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[90.874][FINER]:    Waiting for all views to stop loading...
+[90.874][FINER]:    Done waiting for all views to stop loading
+[90.880][FINER]:    Waiting for all views to stop loading...
+[90.886][FINER]:    Done waiting for all views to stop loading
+[90.886][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a\u00B7feard also a\u00B7feared \u00A0(-f\u00EErd)\nadj. Southern & Midland U.S.\nAfraid.\n[Middle English afered, f..."
+}
+
+[90.892][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/prithee"
+}
+
+[90.892][FINER]:    Waiting for all views to stop loading...
+[90.893][FINER]:    Done waiting for all views to stop loading
+[92.709][FINER]:    Waiting for all views to stop loading...
+[92.712][FINER]:    Done waiting for all views to stop loading
+[92.712][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[93.719][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[93.719][FINER]:    Waiting for all views to stop loading...
+[93.720][FINER]:    Done waiting for all views to stop loading
+[93.725][FINER]:    Waiting for all views to stop loading...
+[93.726][FINER]:    Done waiting for all views to stop loading
+[93.726][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "prith\u00B7ee \u00A0(pr, prth)\ninterj. Archaic\nUsed to express a polite request.\n[Alteration of (I) pray ..."
+}
+
+[93.732][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/sticking-place"
+}
+
+[93.732][FINER]:    Waiting for all views to stop loading...
+[93.732][FINER]:    Done waiting for all views to stop loading
+[96.256][FINER]:    Waiting for all views to stop loading...
+[96.260][FINER]:    Done waiting for all views to stop loading
+[96.260][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[97.268][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[97.269][FINER]:    Waiting for all views to stop loading...
+[97.269][FINER]:    Done waiting for all views to stop loading
+[97.280][FINER]:    Waiting for all views to stop loading...
+[97.281][FINER]:    Done waiting for all views to stop loading
+[97.281][WARNING]:  Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[97.287][FINE]:     Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/wassail"
+}
+
+[97.287][FINER]:    Waiting for all views to stop loading...
+[97.287][FINER]:    Done waiting for all views to stop loading
+[99.675][FINER]:    Waiting for all views to stop loading...
+[99.675][FINER]:    Done waiting for all views to stop loading
+[99.675][FINE]:     Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[100.679][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[100.680][FINER]:   Waiting for all views to stop loading...
+[100.680][FINER]:   Done waiting for all views to stop loading
+[100.687][FINER]:   Waiting for all views to stop loading...
+[100.687][FINER]:   Done waiting for all views to stop loading
+[100.687][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "was\u00B7sail \u00A0(wsl, w-sl)\nn.\n1.\na. A salutation or toast given in drinking someone's health or as a..."
+}
+
+[100.694][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/limbeck"
+}
+
+[100.694][FINER]:   Waiting for all views to stop loading...
+[100.694][FINER]:   Done waiting for all views to stop loading
+[101.847][FINER]:   Waiting for all views to stop loading...
+[101.848][FINER]:   Done waiting for all views to stop loading
+[101.848][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[102.854][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[102.854][FINER]:   Waiting for all views to stop loading...
+[102.854][FINER]:   Done waiting for all views to stop loading
+[102.860][FINER]:   Waiting for all views to stop loading...
+[102.860][FINER]:   Done waiting for all views to stop loading
+[102.860][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[102.868][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/swinish"
+}
+
+[102.868][FINER]:   Waiting for all views to stop loading...
+[102.869][FINER]:   Done waiting for all views to stop loading
+[104.918][FINER]:   Waiting for all views to stop loading...
+[104.918][FINER]:   Done waiting for all views to stop loading
+[104.919][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[105.922][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[105.923][FINER]:   Waiting for all views to stop loading...
+[105.923][FINER]:   Done waiting for all views to stop loading
+[105.929][FINER]:   Waiting for all views to stop loading...
+[105.930][FINER]:   Done waiting for all views to stop loading
+[105.930][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "swin\u00B7ish \u00A0(swnsh)\nadj.\n1. Resembling or befitting swine.\n2. Bestial or brutish.\nswinish\u00B7ly adv.\n"
+}
+
+[105.935][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/dudgeon"
+}
+
+[105.935][FINER]:   Waiting for all views to stop loading...
+[105.936][FINER]:   Done waiting for all views to stop loading
+[107.665][FINER]:   Waiting for all views to stop loading...
+[107.669][FINER]:   Done waiting for all views to stop loading
+[107.670][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[108.673][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[108.673][FINER]:   Waiting for all views to stop loading...
+[108.674][FINER]:   Done waiting for all views to stop loading
+[108.680][FINER]:   Waiting for all views to stop loading...
+[108.680][FINER]:   Done waiting for all views to stop loading
+[108.680][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "dudg\u00B7eon\u00A01 \u00A0(djn)\nn.\nA sullen, angry, or indignant humor: \"Slamming the door in Meg's face, Au..."
+}
+
+[108.686][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/alarum"
+}
+
+[108.686][FINER]:   Waiting for all views to stop loading...
+[108.687][FINER]:   Done waiting for all views to stop loading
+[110.546][FINER]:   Waiting for all views to stop loading...
+[110.547][FINER]:   Done waiting for all views to stop loading
+[110.547][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[111.552][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[111.552][FINER]:   Waiting for all views to stop loading...
+[111.552][FINER]:   Done waiting for all views to stop loading
+[111.558][FINER]:   Waiting for all views to stop loading...
+[111.559][FINER]:   Done waiting for all views to stop loading
+[111.559][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a\u00B7la\u00B7rum \u00A0(-l\u00E4rm, -lr-)\nn.\nA warning or alarm, especially a call to arms: \"This instrument ca..."
+}
+
+[111.565][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/ravishing"
+}
+
+[111.565][FINER]:   Waiting for all views to stop loading...
+[111.566][FINER]:   Done waiting for all views to stop loading
+[113.666][FINER]:   Waiting for all views to stop loading...
+[113.668][FINER]:   Done waiting for all views to stop loading
+[113.669][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[114.672][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[114.673][FINER]:   Waiting for all views to stop loading...
+[114.673][FINER]:   Done waiting for all views to stop loading
+[114.679][FINER]:   Waiting for all views to stop loading...
+[114.680][FINER]:   Done waiting for all views to stop loading
+[114.680][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "rav\u00B7ish\u00B7ing \u00A0(rv-shng)\nadj.\nExtremely attractive; entrancing.\nravish\u00B7ing\u00B7ly adv.\n"
+}
+
+[114.686][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/knell"
+}
+
+[114.686][FINER]:   Waiting for all views to stop loading...
+[114.686][FINER]:   Done waiting for all views to stop loading
+[116.669][FINER]:   Waiting for all views to stop loading...
+[116.676][FINER]:   Done waiting for all views to stop loading
+[116.676][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[117.681][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[117.681][FINER]:   Waiting for all views to stop loading...
+[117.682][FINER]:   Done waiting for all views to stop loading
+[117.688][FINER]:   Waiting for all views to stop loading...
+[117.689][FINER]:   Done waiting for all views to stop loading
+[117.689][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "knell \u00A0(nl)\nv. knelled, knell\u00B7ing, knells\nv.intr.\n1. To ring slowly and solemnly, especially fo..."
+}
+
+[117.694][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/posset"
+}
+
+[117.694][FINER]:   Waiting for all views to stop loading...
+[117.695][FINER]:   Done waiting for all views to stop loading
+[120.060][FINER]:   Waiting for all views to stop loading...
+[120.061][FINER]:   Done waiting for all views to stop loading
+[120.061][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[121.070][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[121.070][FINER]:   Waiting for all views to stop loading...
+[121.071][FINER]:   Done waiting for all views to stop loading
+[121.077][FINER]:   Waiting for all views to stop loading...
+[121.077][FINER]:   Done waiting for all views to stop loading
+[121.077][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "pos\u00B7set \u00A0(pst)\nn.\nA spiced drink of hot sweetened milk curdled with wine or ale.\n[Middle Englis..."
+}
+
+[121.083][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/brainsickly"
+}
+
+[121.083][FINER]:   Waiting for all views to stop loading...
+[121.084][FINER]:   Done waiting for all views to stop loading
+[123.167][FINER]:   Waiting for all views to stop loading...
+[123.168][FINER]:   Done waiting for all views to stop loading
+[123.168][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[124.175][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[124.175][FINER]:   Waiting for all views to stop loading...
+[124.175][FINER]:   Done waiting for all views to stop loading
+[124.181][FINER]:   Waiting for all views to stop loading...
+[124.182][FINER]:   Done waiting for all views to stop loading
+[124.182][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "brain\u00B7sick \u00A0(brnsk)\nadj.\nOf, relating to, or induced by a mental disorder; insane or mad.\nbrain..."
+}
+
+[124.188][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/gild"
+}
+
+[124.188][FINER]:   Waiting for all views to stop loading...
+[124.189][FINER]:   Done waiting for all views to stop loading
+[126.311][FINER]:   Waiting for all views to stop loading...
+[126.311][FINER]:   Done waiting for all views to stop loading
+[126.311][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[127.314][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[127.314][FINER]:   Waiting for all views to stop loading...
+[127.314][FINER]:   Done waiting for all views to stop loading
+[127.317][FINER]:   Waiting for all views to stop loading...
+[127.317][FINER]:   Done waiting for all views to stop loading
+[127.317][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "gild\u00A01 \u00A0(gld)\ntr.v. gild\u00B7ed or gilt (glt), gild\u00B7ing, gilds\n1. To cover with or as if with a t..."
+}
+
+[127.320][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/multitudinous"
+}
+
+[127.320][FINER]:   Waiting for all views to stop loading...
+[127.320][FINER]:   Done waiting for all views to stop loading
+[129.121][FINER]:   Waiting for all views to stop loading...
+[129.122][FINER]:   Done waiting for all views to stop loading
+[129.122][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[130.128][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[130.128][FINER]:   Waiting for all views to stop loading...
+[130.128][FINER]:   Done waiting for all views to stop loading
+[130.135][FINER]:   Waiting for all views to stop loading...
+[130.136][FINER]:   Done waiting for all views to stop loading
+[130.136][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "mul\u00B7ti\u00B7tu\u00B7di\u00B7nous \u00A0(mlt-tdn-s, -tyd-)\nadj.\n1. Very numerous; existing in great numbers.\n2. C..."
+}
+
+[130.149][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/incarnadine"
+}
+
+[130.149][FINER]:   Waiting for all views to stop loading...
+[130.149][FINER]:   Done waiting for all views to stop loading
+[131.918][FINER]:   Waiting for all views to stop loading...
+[131.919][FINER]:   Done waiting for all views to stop loading
+[131.920][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[132.929][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[132.929][FINER]:   Waiting for all views to stop loading...
+[132.930][FINER]:   Done waiting for all views to stop loading
+[132.936][FINER]:   Waiting for all views to stop loading...
+[132.936][FINER]:   Done waiting for all views to stop loading
+[132.937][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "in\u00B7car\u00B7na\u00B7dine \u00A0(n-k\u00E4rn-dn, -dn, -dn)\nadj.\n1. Of a fleshy pink color.\n2. Blood-red.\ntr.v. in..."
+}
+
+[132.942][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/anon"
+}
+
+[132.942][FINER]:   Waiting for all views to stop loading...
+[132.943][FINER]:   Done waiting for all views to stop loading
+[134.905][FINER]:   Waiting for all views to stop loading...
+[134.906][FINER]:   Done waiting for all views to stop loading
+[134.907][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[135.910][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[135.911][FINER]:   Waiting for all views to stop loading...
+[135.911][FINER]:   Done waiting for all views to stop loading
+[135.917][FINER]:   Waiting for all views to stop loading...
+[135.918][FINER]:   Done waiting for all views to stop loading
+[135.918][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a\u00B7non \u00A0(-nn)\nadv.\n1. At another time; later.\n2. In a short time; soon.\n3. Archaic At once; fort..."
+}
+
+[135.925][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/carouse"
+}
+
+[135.925][FINER]:   Waiting for all views to stop loading...
+[135.926][FINER]:   Done waiting for all views to stop loading
+[137.995][FINER]:   Waiting for all views to stop loading...
+[137.995][FINER]:   Done waiting for all views to stop loading
+[137.995][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[139.004][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[139.004][FINER]:   Waiting for all views to stop loading...
+[139.005][FINER]:   Done waiting for all views to stop loading
+[139.015][FINER]:   Waiting for all views to stop loading...
+[139.016][FINER]:   Done waiting for all views to stop loading
+[139.016][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "ca\u00B7rouse \u00A0(k-rouz)\nintr.v. ca\u00B7roused, ca\u00B7rous\u00B7ing, ca\u00B7rous\u00B7es\n1. To engage in boisterous, ..."
+}
+
+[139.022][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/requited"
+}
+
+[139.022][FINER]:   Waiting for all views to stop loading...
+[139.022][FINER]:   Done waiting for all views to stop loading
+[140.882][FINER]:   Waiting for all views to stop loading...
+[140.885][FINER]:   Done waiting for all views to stop loading
+[140.885][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[141.887][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[141.887][FINER]:   Waiting for all views to stop loading...
+[141.888][FINER]:   Done waiting for all views to stop loading
+[141.891][FINER]:   Waiting for all views to stop loading...
+[141.891][FINER]:   Done waiting for all views to stop loading
+[141.891][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "re\u00B7quite \u00A0(r-kwt)\ntr.v. re\u00B7quit\u00B7ed, re\u00B7quit\u00B7ing, re\u00B7quites\n1. To make repayment or return ..."
+}
+
+[141.895][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/feverous"
+}
+
+[141.895][FINER]:   Waiting for all views to stop loading...
+[141.895][FINER]:   Done waiting for all views to stop loading
+[143.903][FINER]:   Waiting for all views to stop loading...
+[143.906][FINER]:   Done waiting for all views to stop loading
+[143.906][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[144.910][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[144.910][FINER]:   Waiting for all views to stop loading...
+[144.911][FINER]:   Done waiting for all views to stop loading
+[144.917][FINER]:   Waiting for all views to stop loading...
+[144.917][FINER]:   Done waiting for all views to stop loading
+[144.917][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a.\t1.\tAffected with fever or ague; feverish.\nHis heart, love's feverous citadel.\n- Keats.\n2.\tPert..."
+}
+
+[144.923][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/remembrance"
+}
+
+[144.923][FINER]:   Waiting for all views to stop loading...
+[144.923][FINER]:   Done waiting for all views to stop loading
+[146.939][FINER]:   Waiting for all views to stop loading...
+[146.939][FINER]:   Done waiting for all views to stop loading
+[146.939][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[147.943][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[147.943][FINER]:   Waiting for all views to stop loading...
+[147.944][FINER]:   Done waiting for all views to stop loading
+[147.950][FINER]:   Waiting for all views to stop loading...
+[147.951][FINER]:   Done waiting for all views to stop loading
+[147.951][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "re\u00B7mem\u00B7brance \u00A0(r-mmbrns)\nn.\n1.\na. The act or process of remembering.\nb. The state of being re..."
+}
+
+[147.956][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/sacrilegious"
+}
+
+[147.956][FINER]:   Waiting for all views to stop loading...
+[147.957][FINER]:   Done waiting for all views to stop loading
+[149.826][FINER]:   Waiting for all views to stop loading...
+[149.827][FINER]:   Done waiting for all views to stop loading
+[149.827][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[150.831][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[150.832][FINER]:   Waiting for all views to stop loading...
+[150.832][FINER]:   Done waiting for all views to stop loading
+[150.838][FINER]:   Waiting for all views to stop loading...
+[150.839][FINER]:   Done waiting for all views to stop loading
+[150.839][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "sac\u00B7ri\u00B7le\u00B7gious \u00A0(skr-ljs, -ljs)\nadj.\n1. Grossly irreverent toward what is or is held to be s..."
+}
+
+[150.845][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/counterfeit"
+}
+
+[150.845][FINER]:   Waiting for all views to stop loading...
+[150.845][FINER]:   Done waiting for all views to stop loading
+[152.971][FINER]:   Waiting for all views to stop loading...
+[152.971][FINER]:   Done waiting for all views to stop loading
+[152.971][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[153.975][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[153.975][FINER]:   Waiting for all views to stop loading...
+[153.976][FINER]:   Done waiting for all views to stop loading
+[153.983][FINER]:   Waiting for all views to stop loading...
+[153.983][FINER]:   Done waiting for all views to stop loading
+[153.983][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "coun\u00B7ter\u00B7feit \u00A0(kountr-ft)\nv. coun\u00B7ter\u00B7feit\u00B7ed, coun\u00B7ter\u00B7feit\u00B7ing, coun\u00B7ter\u00B7feits\nv.tr..."
+}
+
+[153.989][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/parley"
+}
+
+[153.989][FINER]:   Waiting for all views to stop loading...
+[153.990][FINER]:   Done waiting for all views to stop loading
+[155.828][FINER]:   Waiting for all views to stop loading...
+[155.828][FINER]:   Done waiting for all views to stop loading
+[155.828][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[156.835][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[156.835][FINER]:   Waiting for all views to stop loading...
+[156.836][FINER]:   Done waiting for all views to stop loading
+[156.842][FINER]:   Waiting for all views to stop loading...
+[156.842][FINER]:   Done waiting for all views to stop loading
+[156.842][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "par\u00B7ley \u00A0(p\u00E4rl)\nn. pl. par\u00B7leys\nA discussion or conference, especially one between enemies ov..."
+}
+
+[156.848][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/temperate"
+}
+
+[156.849][FINER]:   Waiting for all views to stop loading...
+[156.849][FINER]:   Done waiting for all views to stop loading
+[159.836][FINER]:   Waiting for all views to stop loading...
+[159.837][FINER]:   Done waiting for all views to stop loading
+[159.837][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[160.839][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[160.840][FINER]:   Waiting for all views to stop loading...
+[160.840][FINER]:   Done waiting for all views to stop loading
+[160.845][FINER]:   Waiting for all views to stop loading...
+[160.845][FINER]:   Done waiting for all views to stop loading
+[160.846][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "tem\u00B7per\u00B7ate \u00A0(tmpr-t, tmprt)\nadj.\n1. Exercising moderation and self-restraint: learned to be t..."
+}
+
+[160.848][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/breeched"
+}
+
+[160.848][FINER]:   Waiting for all views to stop loading...
+[160.849][FINER]:   Done waiting for all views to stop loading
+[163.338][FINER]:   Waiting for all views to stop loading...
+[163.339][FINER]:   Done waiting for all views to stop loading
+[163.339][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[164.343][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[164.343][FINER]:   Waiting for all views to stop loading...
+[164.344][FINER]:   Done waiting for all views to stop loading
+[164.349][FINER]:   Waiting for all views to stop loading...
+[164.350][FINER]:   Done waiting for all views to stop loading
+[164.350][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "adj.\t1.\tdressed in trousers.\n"
+}
+
+[164.355][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/auger"
+}
+
+[164.356][FINER]:   Waiting for all views to stop loading...
+[164.356][FINER]:   Done waiting for all views to stop loading
+[166.636][FINER]:   Waiting for all views to stop loading...
+[166.641][FINER]:   Done waiting for all views to stop loading
+[166.641][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[167.645][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[167.645][FINER]:   Waiting for all views to stop loading...
+[167.646][FINER]:   Done waiting for all views to stop loading
+[167.652][FINER]:   Waiting for all views to stop loading...
+[167.653][FINER]:   Done waiting for all views to stop loading
+[167.653][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "au\u00B7ger \u00A0(\u00F4gr)\nn.\n1.\na. Any of various hand tools, typically having a threaded shank and cross ..."
+}
+
+[167.659][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/consort"
+}
+
+[167.659][FINER]:   Waiting for all views to stop loading...
+[167.659][FINER]:   Done waiting for all views to stop loading
+[169.770][FINER]:   Waiting for all views to stop loading...
+[169.771][FINER]:   Done waiting for all views to stop loading
+[169.771][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[170.776][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[170.776][FINER]:   Waiting for all views to stop loading...
+[170.776][FINER]:   Done waiting for all views to stop loading
+[170.783][FINER]:   Waiting for all views to stop loading...
+[170.783][FINER]:   Done waiting for all views to stop loading
+[170.784][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "con\u00B7sort \u00A0(kns\u00F4rt)\nn.\n1. A husband or wife, especially the spouse of a monarch.\n2. A companion..."
+}
+
+[170.789][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/benison"
+}
+
+[170.789][FINER]:   Waiting for all views to stop loading...
+[170.790][FINER]:   Done waiting for all views to stop loading
+[172.630][FINER]:   Waiting for all views to stop loading...
+[172.631][FINER]:   Done waiting for all views to stop loading
+[172.631][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[173.633][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[173.633][FINER]:   Waiting for all views to stop loading...
+[173.634][FINER]:   Done waiting for all views to stop loading
+[173.636][FINER]:   Waiting for all views to stop loading...
+[173.637][FINER]:   Done waiting for all views to stop loading
+[173.637][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "ben\u00B7i\u00B7son \u00A0(bn-zn, -sn)\nn.\nA blessing; a benediction.\n[Middle English, from Old French beneiso..."
+}
+
+[173.639][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/indissoluble"
+}
+
+[173.639][FINER]:   Waiting for all views to stop loading...
+[173.640][FINER]:   Done waiting for all views to stop loading
+[175.652][FINER]:   Waiting for all views to stop loading...
+[175.652][FINER]:   Done waiting for all views to stop loading
+[175.652][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[176.657][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[176.657][FINER]:   Waiting for all views to stop loading...
+[176.657][FINER]:   Done waiting for all views to stop loading
+[176.663][FINER]:   Waiting for all views to stop loading...
+[176.664][FINER]:   Done waiting for all views to stop loading
+[176.664][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "in\u00B7dis\u00B7sol\u00B7u\u00B7ble \u00A0(nd-sly-bl)\nadj.\n1. Permanent; binding: an indissoluble contract; an indis..."
+}
+
+[176.669][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/twain"
+}
+
+[176.669][FINER]:   Waiting for all views to stop loading...
+[176.670][FINER]:   Done waiting for all views to stop loading
+[178.998][FINER]:   Waiting for all views to stop loading...
+[179.000][FINER]:   Done waiting for all views to stop loading
+[179.000][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[180.004][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[180.004][FINER]:   Waiting for all views to stop loading...
+[180.005][FINER]:   Done waiting for all views to stop loading
+[180.010][FINER]:   Waiting for all views to stop loading...
+[180.011][FINER]:   Done waiting for all views to stop loading
+[180.011][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "Twain \u00A0(twn), Mark\nSee Samuel Langhorne Clemens.\n"
+}
+
+[180.019][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/exeunt"
+}
+
+[180.019][FINER]:   Waiting for all views to stop loading...
+[180.020][FINER]:   Done waiting for all views to stop loading
+[181.927][FINER]:   Waiting for all views to stop loading...
+[181.933][FINER]:   Done waiting for all views to stop loading
+[181.933][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[182.940][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[182.940][FINER]:   Waiting for all views to stop loading...
+[182.940][FINER]:   Done waiting for all views to stop loading
+[182.946][FINER]:   Waiting for all views to stop loading...
+[182.947][FINER]:   Done waiting for all views to stop loading
+[182.947][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "ex\u00B7e\u00B7unt \u00A0(ks-nt, -nt)\nUsed as a stage direction to indicate that two or more performers leave..."
+}
+
+[182.952][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/unlineal"
+}
+
+[182.952][FINER]:   Waiting for all views to stop loading...
+[182.953][FINER]:   Done waiting for all views to stop loading
+[184.896][FINER]:   Waiting for all views to stop loading...
+[184.897][FINER]:   Done waiting for all views to stop loading
+[184.897][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[185.902][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[185.902][FINER]:   Waiting for all views to stop loading...
+[185.903][FINER]:   Done waiting for all views to stop loading
+[185.908][FINER]:   Waiting for all views to stop loading...
+[185.908][FINER]:   Done waiting for all views to stop loading
+[185.909][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[185.914][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/rancours"
+}
+
+[185.915][FINER]:   Waiting for all views to stop loading...
+[185.915][FINER]:   Done waiting for all views to stop loading
+[188.013][FINER]:   Waiting for all views to stop loading...
+[188.013][FINER]:   Done waiting for all views to stop loading
+[188.013][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[189.020][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[189.020][FINER]:   Waiting for all views to stop loading...
+[189.021][FINER]:   Done waiting for all views to stop loading
+[189.027][FINER]:   Waiting for all views to stop loading...
+[189.028][FINER]:   Done waiting for all views to stop loading
+[189.028][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "ran\u00B7cour \u00A0(rngkr)\nn. Chiefly British\nVariant of rancor.\n"
+}
+
+[189.033][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/liege"
+}
+
+[189.033][FINER]:   Waiting for all views to stop loading...
+[189.034][FINER]:   Done waiting for all views to stop loading
+[191.409][FINER]:   Waiting for all views to stop loading...
+[191.411][FINER]:   Done waiting for all views to stop loading
+[191.412][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[192.416][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[192.416][FINER]:   Waiting for all views to stop loading...
+[192.417][FINER]:   Done waiting for all views to stop loading
+[192.423][FINER]:   Waiting for all views to stop loading...
+[192.423][FINER]:   Done waiting for all views to stop loading
+[192.424][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "liege \u00A0(lj)\nn.\n1. A lord or sovereign to whom allegiance and service are due according to feudal..."
+}
+
+[192.430][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/cur"
+}
+
+[192.430][FINER]:   Waiting for all views to stop loading...
+[192.431][FINER]:   Done waiting for all views to stop loading
+[194.905][FINER]:   Waiting for all views to stop loading...
+[194.906][FINER]:   Done waiting for all views to stop loading
+[194.906][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[195.912][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[195.912][FINER]:   Waiting for all views to stop loading...
+[195.913][FINER]:   Done waiting for all views to stop loading
+[195.919][FINER]:   Waiting for all views to stop loading...
+[195.919][FINER]:   Done waiting for all views to stop loading
+[195.920][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "cur \u00A0(k\u00FBr)\nn.\n1. A dog considered to be inferior or undesirable; a mongrel.\n2. A base or coward..."
+}
+
+[195.925][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/shough"
+}
+
+[195.925][FINER]:   Waiting for all views to stop loading...
+[195.926][FINER]:   Done waiting for all views to stop loading
+[197.866][FINER]:   Waiting for all views to stop loading...
+[197.870][FINER]:   Done waiting for all views to stop loading
+[197.870][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[198.875][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[198.875][FINER]:   Waiting for all views to stop loading...
+[198.876][FINER]:   Done waiting for all views to stop loading
+[198.881][FINER]:   Waiting for all views to stop loading...
+[198.882][FINER]:   Done waiting for all views to stop loading
+[198.882][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "n.\t1.\t(Zool.) A shockdog.\ninterj.\t1.\tSee Shoo.\n"
+}
+
+[198.888][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/demi-wolves"
+}
+
+[198.888][FINER]:   Waiting for all views to stop loading...
+[198.888][FINER]:   Done waiting for all views to stop loading
+[200.697][FINER]:   Waiting for all views to stop loading...
+[200.697][FINER]:   Done waiting for all views to stop loading
+[200.697][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[201.702][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[201.702][FINER]:   Waiting for all views to stop loading...
+[201.703][FINER]:   Done waiting for all views to stop loading
+[201.731][FINER]:   Waiting for all views to stop loading...
+[201.732][FINER]:   Done waiting for all views to stop loading
+[201.732][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[201.734][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/avouch"
+}
+
+[201.734][FINER]:   Waiting for all views to stop loading...
+[201.735][FINER]:   Done waiting for all views to stop loading
+[203.861][FINER]:   Waiting for all views to stop loading...
+[203.864][FINER]:   Done waiting for all views to stop loading
+[203.864][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[204.868][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[204.868][FINER]:   Waiting for all views to stop loading...
+[204.869][FINER]:   Done waiting for all views to stop loading
+[204.875][FINER]:   Waiting for all views to stop loading...
+[204.876][FINER]:   Done waiting for all views to stop loading
+[204.876][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a\u00B7vouch \u00A0(-vouch)\ntr.v. a\u00B7vouched, a\u00B7vouch\u00B7ing, a\u00B7vouch\u00B7es\n1. To declare the provable trut..."
+}
+
+[204.881][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/sundry"
+}
+
+[204.881][FINER]:   Waiting for all views to stop loading...
+[204.882][FINER]:   Done waiting for all views to stop loading
+[206.786][FINER]:   Waiting for all views to stop loading...
+[206.786][FINER]:   Done waiting for all views to stop loading
+[206.787][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[207.790][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[207.790][FINER]:   Waiting for all views to stop loading...
+[207.791][FINER]:   Done waiting for all views to stop loading
+[207.797][FINER]:   Waiting for all views to stop loading...
+[207.797][FINER]:   Done waiting for all views to stop loading
+[207.798][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "sun\u00B7dry \u00A0(sndr)\nadj.\nVarious; miscellaneous: a purse containing keys, wallet, and sundry items...."
+}
+
+[207.804][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/vizard"
+}
+
+[207.804][FINER]:   Waiting for all views to stop loading...
+[207.804][FINER]:   Done waiting for all views to stop loading
+[209.999][FINER]:   Waiting for all views to stop loading...
+[210.003][FINER]:   Done waiting for all views to stop loading
+[210.004][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[211.010][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[211.011][FINER]:   Waiting for all views to stop loading...
+[211.011][FINER]:   Done waiting for all views to stop loading
+[211.020][FINER]:   Waiting for all views to stop loading...
+[211.020][FINER]:   Done waiting for all views to stop loading
+[211.020][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "viz\u00B7ard also vis\u00B7ard \u00A0(vzrd, -\u00E4rd)\nn.\n1. A visor or mask.\n2. A disguise.\n[Alteration of obsol..."
+}
+
+[211.025][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/jocund"
+}
+
+[211.025][FINER]:   Waiting for all views to stop loading...
+[211.026][FINER]:   Done waiting for all views to stop loading
+[212.967][FINER]:   Waiting for all views to stop loading...
+[212.968][FINER]:   Done waiting for all views to stop loading
+[212.968][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[213.973][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[213.973][FINER]:   Waiting for all views to stop loading...
+[213.974][FINER]:   Done waiting for all views to stop loading
+[213.979][FINER]:   Waiting for all views to stop loading...
+[213.980][FINER]:   Done waiting for all views to stop loading
+[213.980][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "joc\u00B7und \u00A0(jknd, jknd)\nadj.\nSprightly and lighthearted in disposition, character, or quality.\n[M..."
+}
+
+[213.985][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/charnel-house"
+}
+
+[213.986][FINER]:   Waiting for all views to stop loading...
+[213.986][FINER]:   Done waiting for all views to stop loading
+[216.295][FINER]:   Waiting for all views to stop loading...
+[216.296][FINER]:   Done waiting for all views to stop loading
+[216.296][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[217.300][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[217.301][FINER]:   Waiting for all views to stop loading...
+[217.301][FINER]:   Done waiting for all views to stop loading
+[217.306][FINER]:   Waiting for all views to stop loading...
+[217.307][FINER]:   Done waiting for all views to stop loading
+[217.307][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[217.312][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/maw"
+}
+
+[217.312][FINER]:   Waiting for all views to stop loading...
+[217.313][FINER]:   Done waiting for all views to stop loading
+[219.456][FINER]:   Waiting for all views to stop loading...
+[219.456][FINER]:   Done waiting for all views to stop loading
+[219.457][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[220.463][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[220.463][FINER]:   Waiting for all views to stop loading...
+[220.464][FINER]:   Done waiting for all views to stop loading
+[220.470][FINER]:   Waiting for all views to stop loading...
+[220.471][FINER]:   Done waiting for all views to stop loading
+[220.471][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "maw \u00A0(m\u00F4)\nn.\n1. The mouth, stomach, jaws, or gullet of a voracious animal, especially a carnivo..."
+}
+
+[220.476][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/kite"
+}
+
+[220.476][FINER]:   Waiting for all views to stop loading...
+[220.477][FINER]:   Done waiting for all views to stop loading
+[222.618][FINER]:   Waiting for all views to stop loading...
+[222.619][FINER]:   Done waiting for all views to stop loading
+[222.619][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[223.623][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[223.623][FINER]:   Waiting for all views to stop loading...
+[223.624][FINER]:   Done waiting for all views to stop loading
+[223.630][FINER]:   Waiting for all views to stop loading...
+[223.631][FINER]:   Done waiting for all views to stop loading
+[223.631][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "kite \u00A0(kt)\nn.\n1. A light framework covered with cloth, plastic, or paper, designed to be flown i..."
+}
+
+[223.637][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/weal"
+}
+
+[223.637][FINER]:   Waiting for all views to stop loading...
+[223.638][FINER]:   Done waiting for all views to stop loading
+[225.939][FINER]:   Waiting for all views to stop loading...
+[225.939][FINER]:   Done waiting for all views to stop loading
+[225.939][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[226.943][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[226.943][FINER]:   Waiting for all views to stop loading...
+[226.944][FINER]:   Done waiting for all views to stop loading
+[226.950][FINER]:   Waiting for all views to stop loading...
+[226.950][FINER]:   Done waiting for all views to stop loading
+[226.951][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "weal\u00A01 \u00A0(wl)\nn.\n1. Prosperity; happiness: in weal and woe.\n2. The welfare of the community; the..."
+}
+
+[226.956][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/avaunt"
+}
+
+[226.956][FINER]:   Waiting for all views to stop loading...
+[226.957][FINER]:   Done waiting for all views to stop loading
+[229.076][FINER]:   Waiting for all views to stop loading...
+[229.079][FINER]:   Done waiting for all views to stop loading
+[229.079][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[230.084][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[230.084][FINER]:   Waiting for all views to stop loading...
+[230.084][FINER]:   Done waiting for all views to stop loading
+[230.087][FINER]:   Waiting for all views to stop loading...
+[230.087][FINER]:   Done waiting for all views to stop loading
+[230.087][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "a\u00B7vaunt \u00A0(-v\u00F4nt, -v\u00E4nt)\nadv.\nHence; away.\n[Middle English, forward, from Old French avant, fr..."
+}
+
+[230.090][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/blanched"
+}
+
+[230.090][FINER]:   Waiting for all views to stop loading...
+[230.091][FINER]:   Done waiting for all views to stop loading
+[232.091][FINER]:   Waiting for all views to stop loading...
+[232.214][FINER]:   Done waiting for all views to stop loading
+[232.214][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[233.220][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[233.220][FINER]:   Waiting for all views to stop loading...
+[233.221][FINER]:   Done waiting for all views to stop loading
+[233.227][FINER]:   Waiting for all views to stop loading...
+[233.228][FINER]:   Done waiting for all views to stop loading
+[233.228][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "blanch \u00A0(blnch) also blench (blnch)\nv. blanched also blenched, blanch\u00B7ing also blench\u00B7ing, bla..."
+}
+
+[233.234][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/delinquent"
+}
+
+[233.234][FINER]:   Waiting for all views to stop loading...
+[233.235][FINER]:   Done waiting for all views to stop loading
+[235.194][FINER]:   Waiting for all views to stop loading...
+[235.194][FINER]:   Done waiting for all views to stop loading
+[235.194][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[236.199][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[236.199][FINER]:   Waiting for all views to stop loading...
+[236.200][FINER]:   Done waiting for all views to stop loading
+[236.206][FINER]:   Waiting for all views to stop loading...
+[236.207][FINER]:   Done waiting for all views to stop loading
+[236.207][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "de\u00B7lin\u00B7quent \u00A0(d-lngkwnt, -ln-)\nadj.\n1. Failing to do what law or duty requires.\n2. Overdue in..."
+}
+
+[236.212][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/rue"
+}
+
+[236.213][FINER]:   Waiting for all views to stop loading...
+[236.213][FINER]:   Done waiting for all views to stop loading
+[242.687][FINER]:   Waiting for all views to stop loading...
+[242.692][FINER]:   Done waiting for all views to stop loading
+[242.692][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[243.696][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[243.697][FINER]:   Waiting for all views to stop loading...
+[243.697][FINER]:   Done waiting for all views to stop loading
+[243.703][FINER]:   Waiting for all views to stop loading...
+[243.704][FINER]:   Done waiting for all views to stop loading
+[243.705][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[243.714][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/brinded"
+}
+
+[243.714][FINER]:   Waiting for all views to stop loading...
+[243.714][FINER]:   Done waiting for all views to stop loading
+[244.004][FINER]:   Waiting for all views to stop loading...
+[244.004][FINER]:   Done waiting for all views to stop loading
+[244.004][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[245.009][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[245.009][FINER]:   Waiting for all views to stop loading...
+[245.010][FINER]:   Done waiting for all views to stop loading
+[245.019][FINER]:   Waiting for all views to stop loading...
+[245.019][FINER]:   Done waiting for all views to stop loading
+[245.019][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[245.033][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hedge-pig"
+}
+
+[245.033][FINER]:   Waiting for all views to stop loading...
+[245.035][FINER]:   Done waiting for all views to stop loading
+[245.320][FINER]:   Waiting for all views to stop loading...
+[245.323][FINER]:   Done waiting for all views to stop loading
+[245.324][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[246.328][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[246.328][FINER]:   Waiting for all views to stop loading...
+[246.329][FINER]:   Done waiting for all views to stop loading
+[246.334][FINER]:   Waiting for all views to stop loading...
+[246.335][FINER]:   Done waiting for all views to stop loading
+[246.335][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[246.340][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/adder"
+}
+
+[246.340][FINER]:   Waiting for all views to stop loading...
+[246.341][FINER]:   Done waiting for all views to stop loading
+[246.617][FINER]:   Waiting for all views to stop loading...
+[246.618][FINER]:   Done waiting for all views to stop loading
+[246.618][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[247.622][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[247.622][FINER]:   Waiting for all views to stop loading...
+[247.623][FINER]:   Done waiting for all views to stop loading
+[247.628][FINER]:   Waiting for all views to stop loading...
+[247.629][FINER]:   Done waiting for all views to stop loading
+[247.629][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[247.634][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/blind-worm"
+}
+
+[247.634][FINER]:   Waiting for all views to stop loading...
+[247.636][FINER]:   Done waiting for all views to stop loading
+[247.914][FINER]:   Waiting for all views to stop loading...
+[247.915][FINER]:   Done waiting for all views to stop loading
+[247.915][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[248.919][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[248.919][FINER]:   Waiting for all views to stop loading...
+[248.920][FINER]:   Done waiting for all views to stop loading
+[248.925][FINER]:   Waiting for all views to stop loading...
+[248.926][FINER]:   Done waiting for all views to stop loading
+[248.926][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[248.931][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hemlock"
+}
+
+[248.931][FINER]:   Waiting for all views to stop loading...
+[248.932][FINER]:   Done waiting for all views to stop loading
+[251.029][FINER]:   Waiting for all views to stop loading...
+[251.029][FINER]:   Done waiting for all views to stop loading
+[251.029][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[252.035][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[252.035][FINER]:   Waiting for all views to stop loading...
+[252.036][FINER]:   Done waiting for all views to stop loading
+[252.042][FINER]:   Waiting for all views to stop loading...
+[252.043][FINER]:   Done waiting for all views to stop loading
+[252.043][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "hem\u00B7lock \u00A0(hmlk)\nn.\n1.\na. Any of various coniferous evergreen trees of the genus Tsuga of North..."
+}
+
+[252.048][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/gibbet"
+}
+
+[252.048][FINER]:   Waiting for all views to stop loading...
+[252.049][FINER]:   Done waiting for all views to stop loading
+[254.493][FINER]:   Waiting for all views to stop loading...
+[254.494][FINER]:   Done waiting for all views to stop loading
+[254.494][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[255.499][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[255.499][FINER]:   Waiting for all views to stop loading...
+[255.499][FINER]:   Done waiting for all views to stop loading
+[255.506][FINER]:   Waiting for all views to stop loading...
+[255.506][FINER]:   Done waiting for all views to stop loading
+[255.506][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "gib\u00B7bet \u00A0(jbt)\nn.\n1. A device used for hanging a person until dead; a gallows.\n2. An upright po..."
+}
+
+[255.512][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/resolute"
+}
+
+[255.512][FINER]:   Waiting for all views to stop loading...
+[255.513][FINER]:   Done waiting for all views to stop loading
+[258.230][FINER]:   Waiting for all views to stop loading...
+[258.230][FINER]:   Done waiting for all views to stop loading
+[258.230][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[259.232][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[259.232][FINER]:   Waiting for all views to stop loading...
+[259.233][FINER]:   Done waiting for all views to stop loading
+[259.235][FINER]:   Waiting for all views to stop loading...
+[259.236][FINER]:   Done waiting for all views to stop loading
+[259.236][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "res\u00B7o\u00B7lute \u00A0(rz-lt, rz-lt)\nadj.\nFirm or determined; unwavering.\n[Middle English, dissolved, di..."
+}
+
+[259.238][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/lion-mettled"
+}
+
+[259.238][FINER]:   Waiting for all views to stop loading...
+[259.238][FINER]:   Done waiting for all views to stop loading
+[261.198][FINER]:   Waiting for all views to stop loading...
+[261.198][FINER]:   Done waiting for all views to stop loading
+[261.198][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[262.203][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[262.248][FINER]:   Waiting for all views to stop loading...
+[262.249][FINER]:   Done waiting for all views to stop loading
+[262.254][FINER]:   Waiting for all views to stop loading...
+[262.255][FINER]:   Done waiting for all views to stop loading
+[262.255][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[262.261][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/treble"
+}
+
+[262.261][FINER]:   Waiting for all views to stop loading...
+[262.262][FINER]:   Done waiting for all views to stop loading
+[264.484][FINER]:   Waiting for all views to stop loading...
+[264.489][FINER]:   Done waiting for all views to stop loading
+[264.489][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[265.493][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[265.493][FINER]:   Waiting for all views to stop loading...
+[265.494][FINER]:   Done waiting for all views to stop loading
+[265.501][FINER]:   Waiting for all views to stop loading...
+[265.502][FINER]:   Done waiting for all views to stop loading
+[265.502][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "treb\u00B7le \u00A0(trbl)\nadj.\n1. Triple: \"treble reason for loving as well as working while it is day\" (..."
+}
+
+[265.507][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/pernicious"
+}
+
+[265.507][FINER]:   Waiting for all views to stop loading...
+[265.507][FINER]:   Done waiting for all views to stop loading
+[266.004][FINER]:   Waiting for all views to stop loading...
+[266.007][FINER]:   Done waiting for all views to stop loading
+[266.007][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[267.011][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[267.011][FINER]:   Waiting for all views to stop loading...
+[267.012][FINER]:   Done waiting for all views to stop loading
+[267.020][FINER]:   Waiting for all views to stop loading...
+[267.021][FINER]:   Done waiting for all views to stop loading
+[267.021][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[267.026][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/firstling"
+}
+
+[267.026][FINER]:   Waiting for all views to stop loading...
+[267.027][FINER]:   Done waiting for all views to stop loading
+[267.312][FINER]:   Waiting for all views to stop loading...
+[267.317][FINER]:   Done waiting for all views to stop loading
+[267.317][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[268.321][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[268.321][FINER]:   Waiting for all views to stop loading...
+[268.322][FINER]:   Done waiting for all views to stop loading
+[268.327][FINER]:   Waiting for all views to stop loading...
+[268.328][FINER]:   Done waiting for all views to stop loading
+[268.328][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[268.334][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/judicious"
+}
+
+[268.334][FINER]:   Waiting for all views to stop loading...
+[268.334][FINER]:   Done waiting for all views to stop loading
+[268.613][FINER]:   Waiting for all views to stop loading...
+[268.615][FINER]:   Done waiting for all views to stop loading
+[268.615][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[269.619][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[269.619][FINER]:   Waiting for all views to stop loading...
+[269.620][FINER]:   Done waiting for all views to stop loading
+[269.625][FINER]:   Waiting for all views to stop loading...
+[269.626][FINER]:   Done waiting for all views to stop loading
+[269.626][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[269.631][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/sirrah"
+}
+
+[269.631][FINER]:   Waiting for all views to stop loading...
+[269.632][FINER]:   Done waiting for all views to stop loading
+[269.919][FINER]:   Waiting for all views to stop loading...
+[269.919][FINER]:   Done waiting for all views to stop loading
+[269.919][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[270.923][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[270.923][FINER]:   Waiting for all views to stop loading...
+[270.924][FINER]:   Done waiting for all views to stop loading
+[270.929][FINER]:   Waiting for all views to stop loading...
+[270.930][FINER]:   Done waiting for all views to stop loading
+[270.930][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[270.936][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/prattler"
+}
+
+[270.936][FINER]:   Waiting for all views to stop loading...
+[270.936][FINER]:   Done waiting for all views to stop loading
+[271.218][FINER]:   Waiting for all views to stop loading...
+[271.224][FINER]:   Done waiting for all views to stop loading
+[271.224][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[272.230][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[272.230][FINER]:   Waiting for all views to stop loading...
+[272.231][FINER]:   Done waiting for all views to stop loading
+[272.236][FINER]:   Waiting for all views to stop loading...
+[272.237][FINER]:   Done waiting for all views to stop loading
+[272.237][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[272.242][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/homely"
+}
+
+[272.242][FINER]:   Waiting for all views to stop loading...
+[272.243][FINER]:   Done waiting for all views to stop loading
+[272.525][FINER]:   Waiting for all views to stop loading...
+[272.527][FINER]:   Done waiting for all views to stop loading
+[272.527][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[273.531][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[273.531][FINER]:   Waiting for all views to stop loading...
+[273.532][FINER]:   Done waiting for all views to stop loading
+[273.537][FINER]:   Waiting for all views to stop loading...
+[273.537][FINER]:   Done waiting for all views to stop loading
+[273.538][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[273.543][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/nigh"
+}
+
+[273.543][FINER]:   Waiting for all views to stop loading...
+[273.544][FINER]:   Done waiting for all views to stop loading
+[273.820][FINER]:   Waiting for all views to stop loading...
+[273.822][FINER]:   Done waiting for all views to stop loading
+[273.823][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[274.827][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[274.827][FINER]:   Waiting for all views to stop loading...
+[274.828][FINER]:   Done waiting for all views to stop loading
+[274.833][FINER]:   Waiting for all views to stop loading...
+[274.834][FINER]:   Done waiting for all views to stop loading
+[274.834][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[274.839][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/abide"
+}
+
+[274.840][FINER]:   Waiting for all views to stop loading...
+[274.840][FINER]:   Done waiting for all views to stop loading
+[275.114][FINER]:   Waiting for all views to stop loading...
+[275.115][FINER]:   Done waiting for all views to stop loading
+[275.116][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[276.119][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[276.123][FINER]:   Waiting for all views to stop loading...
+[276.124][FINER]:   Done waiting for all views to stop loading
+[276.129][FINER]:   Waiting for all views to stop loading...
+[276.130][FINER]:   Done waiting for all views to stop loading
+[276.130][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[276.137][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/laudable"
+}
+
+[276.137][FINER]:   Waiting for all views to stop loading...
+[276.138][FINER]:   Done waiting for all views to stop loading
+[276.412][FINER]:   Waiting for all views to stop loading...
+[276.414][FINER]:   Done waiting for all views to stop loading
+[276.414][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[277.418][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[277.418][FINER]:   Waiting for all views to stop loading...
+[277.419][FINER]:   Done waiting for all views to stop loading
+[277.425][FINER]:   Waiting for all views to stop loading...
+[277.425][FINER]:   Done waiting for all views to stop loading
+[277.425][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[277.430][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/dolour"
+}
+
+[277.430][FINER]:   Waiting for all views to stop loading...
+[277.431][FINER]:   Done waiting for all views to stop loading
+[279.288][FINER]:   Waiting for all views to stop loading...
+[279.292][FINER]:   Done waiting for all views to stop loading
+[279.292][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[280.297][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[280.297][FINER]:   Waiting for all views to stop loading...
+[280.298][FINER]:   Done waiting for all views to stop loading
+[280.304][FINER]:   Waiting for all views to stop loading...
+[280.305][FINER]:   Done waiting for all views to stop loading
+[280.305][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "do\u00B7lour \u00A0(dlr)\nn. Chiefly British\nVariant of dolor.\n"
+}
+
+[280.310][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/avaricious"
+}
+
+[280.310][FINER]:   Waiting for all views to stop loading...
+[280.310][FINER]:   Done waiting for all views to stop loading
+[282.889][FINER]:   Waiting for all views to stop loading...
+[282.889][FINER]:   Done waiting for all views to stop loading
+[282.889][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[283.895][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[283.895][FINER]:   Waiting for all views to stop loading...
+[283.896][FINER]:   Done waiting for all views to stop loading
+[283.901][FINER]:   Waiting for all views to stop loading...
+[283.902][FINER]:   Done waiting for all views to stop loading
+[283.902][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "av\u00B7a\u00B7ri\u00B7cious \u00A0(v-rshs)\nadj.\nImmoderately desirous of wealth or gain; greedy.\nava\u00B7ricious\u00B7l..."
+}
+
+[283.907][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/cistern"
+}
+
+[283.908][FINER]:   Waiting for all views to stop loading...
+[283.908][FINER]:   Done waiting for all views to stop loading
+[286.692][FINER]:   Waiting for all views to stop loading...
+[286.692][FINER]:   Done waiting for all views to stop loading
+[286.692][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[287.696][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[287.696][FINER]:   Waiting for all views to stop loading...
+[287.697][FINER]:   Done waiting for all views to stop loading
+[287.703][FINER]:   Waiting for all views to stop loading...
+[287.703][FINER]:   Done waiting for all views to stop loading
+[287.703][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "cis\u00B7tern \u00A0(sstrn)\nn.\n1. A receptacle for holding water or other liquid, especially a tank for c..."
+}
+
+[287.708][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/continent"
+}
+
+[287.709][FINER]:   Waiting for all views to stop loading...
+[287.710][FINER]:   Done waiting for all views to stop loading
+[289.780][FINER]:   Waiting for all views to stop loading...
+[289.780][FINER]:   Done waiting for all views to stop loading
+[289.781][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[290.786][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[290.786][FINER]:   Waiting for all views to stop loading...
+[290.786][FINER]:   Done waiting for all views to stop loading
+[290.792][FINER]:   Waiting for all views to stop loading...
+[290.793][FINER]:   Done waiting for all views to stop loading
+[290.793][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "con\u00B7ti\u00B7nent\u00A01 \u00A0(knt-nnt)\nn.\n1. One of the principal land masses of the earth, usually regarde..."
+}
+
+[290.798][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/impediment"
+}
+
+[290.799][FINER]:   Waiting for all views to stop loading...
+[290.799][FINER]:   Done waiting for all views to stop loading
+[292.985][FINER]:   Waiting for all views to stop loading...
+[292.985][FINER]:   Done waiting for all views to stop loading
+[292.986][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[293.990][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[293.990][FINER]:   Waiting for all views to stop loading...
+[293.991][FINER]:   Done waiting for all views to stop loading
+[293.997][FINER]:   Waiting for all views to stop loading...
+[293.998][FINER]:   Done waiting for all views to stop loading
+[293.998][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "im\u00B7ped\u00B7i\u00B7ment \u00A0(m-pd-mnt)\nn.\n1. Something that impedes; a hindrance or obstruction. See Synon..."
+}
+
+[294.003][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/hoodwink"
+}
+
+[294.003][FINER]:   Waiting for all views to stop loading...
+[294.004][FINER]:   Done waiting for all views to stop loading
+[294.496][FINER]:   Waiting for all views to stop loading...
+[294.499][FINER]:   Done waiting for all views to stop loading
+[294.499][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[295.503][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[295.503][FINER]:   Waiting for all views to stop loading...
+[295.504][FINER]:   Done waiting for all views to stop loading
+[295.509][FINER]:   Waiting for all views to stop loading...
+[295.509][FINER]:   Done waiting for all views to stop loading
+[295.510][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[295.516][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/staunchless"
+}
+
+[295.516][FINER]:   Waiting for all views to stop loading...
+[295.517][FINER]:   Done waiting for all views to stop loading
+[295.794][FINER]:   Waiting for all views to stop loading...
+[295.795][FINER]:   Done waiting for all views to stop loading
+[295.795][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[296.800][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[296.800][FINER]:   Waiting for all views to stop loading...
+[296.800][FINER]:   Done waiting for all views to stop loading
+[296.805][FINER]:   Waiting for all views to stop loading...
+[296.806][FINER]:   Done waiting for all views to stop loading
+[296.806][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[296.811][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/foison"
+}
+
+[296.812][FINER]:   Waiting for all views to stop loading...
+[296.812][FINER]:   Done waiting for all views to stop loading
+[297.092][FINER]:   Waiting for all views to stop loading...
+[297.094][FINER]:   Done waiting for all views to stop loading
+[297.094][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[298.097][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[298.097][FINER]:   Waiting for all views to stop loading...
+[298.098][FINER]:   Done waiting for all views to stop loading
+[298.100][FINER]:   Waiting for all views to stop loading...
+[298.100][FINER]:   Done waiting for all views to stop loading
+[298.100][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[298.102][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/fortitude"
+}
+
+[298.103][FINER]:   Waiting for all views to stop loading...
+[298.103][FINER]:   Done waiting for all views to stop loading
+[298.373][FINER]:   Waiting for all views to stop loading...
+[298.375][FINER]:   Done waiting for all views to stop loading
+[298.375][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[299.379][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[299.379][FINER]:   Waiting for all views to stop loading...
+[299.380][FINER]:   Done waiting for all views to stop loading
+[299.385][FINER]:   Waiting for all views to stop loading...
+[299.385][FINER]:   Done waiting for all views to stop loading
+[299.386][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[299.391][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/interdiction"
+}
+
+[299.391][FINER]:   Waiting for all views to stop loading...
+[299.391][FINER]:   Done waiting for all views to stop loading
+[299.676][FINER]:   Waiting for all views to stop loading...
+[299.680][FINER]:   Done waiting for all views to stop loading
+[299.680][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[300.683][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[300.683][FINER]:   Waiting for all views to stop loading...
+[300.684][FINER]:   Done waiting for all views to stop loading
+[300.689][FINER]:   Waiting for all views to stop loading...
+[300.689][FINER]:   Done waiting for all views to stop loading
+[300.690][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[300.695][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/blaspheme"
+}
+
+[300.695][FINER]:   Waiting for all views to stop loading...
+[300.695][FINER]:   Done waiting for all views to stop loading
+[300.966][FINER]:   Waiting for all views to stop loading...
+[300.970][FINER]:   Done waiting for all views to stop loading
+[300.970][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[301.975][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[301.975][FINER]:   Waiting for all views to stop loading...
+[301.976][FINER]:   Done waiting for all views to stop loading
+[301.981][FINER]:   Waiting for all views to stop loading...
+[301.982][FINER]:   Done waiting for all views to stop loading
+[301.982][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[301.987][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/scruple"
+}
+
+[301.987][FINER]:   Waiting for all views to stop loading...
+[301.988][FINER]:   Done waiting for all views to stop loading
+[302.252][FINER]:   Waiting for all views to stop loading...
+[302.257][FINER]:   Done waiting for all views to stop loading
+[302.258][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[303.257][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[303.258][FINER]:   Waiting for all views to stop loading...
+[303.258][FINER]:   Done waiting for all views to stop loading
+[303.263][FINER]:   Waiting for all views to stop loading...
+[303.264][FINER]:   Done waiting for all views to stop loading
+[303.264][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[303.269][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/credulous"
+}
+
+[303.270][FINER]:   Waiting for all views to stop loading...
+[303.270][FINER]:   Done waiting for all views to stop loading
+[303.550][FINER]:   Waiting for all views to stop loading...
+[303.554][FINER]:   Done waiting for all views to stop loading
+[303.554][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[304.560][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[304.560][FINER]:   Waiting for all views to stop loading...
+[304.561][FINER]:   Done waiting for all views to stop loading
+[304.566][FINER]:   Waiting for all views to stop loading...
+[304.567][FINER]:   Done waiting for all views to stop loading
+[304.567][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[304.572][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/abjure"
+}
+
+[304.572][FINER]:   Waiting for all views to stop loading...
+[304.572][FINER]:   Done waiting for all views to stop loading
+[304.851][FINER]:   Waiting for all views to stop loading...
+[304.853][FINER]:   Done waiting for all views to stop loading
+[304.853][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[305.857][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[305.857][FINER]:   Waiting for all views to stop loading...
+[305.858][FINER]:   Done waiting for all views to stop loading
+[305.863][FINER]:   Waiting for all views to stop loading...
+[305.864][FINER]:   Done waiting for all views to stop loading
+[305.864][WARNING]: Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 13,
+   "value": {
+      "message": "Script execution failed. Script: return document.querySelectorAll('div#MainTxt table')[0].innerTe..."
+   }
+}
+
+[305.869][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/forsworn"
+}
+
+[305.869][FINER]:   Waiting for all views to stop loading...
+[305.870][FINER]:   Done waiting for all views to stop loading
+[308.019][FINER]:   Waiting for all views to stop loading...
+[308.020][FINER]:   Done waiting for all views to stop loading
+[308.020][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[309.026][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[309.026][FINER]:   Waiting for all views to stop loading...
+[309.027][FINER]:   Done waiting for all views to stop loading
+[309.034][FINER]:   Waiting for all views to stop loading...
+[309.035][FINER]:   Done waiting for all views to stop loading
+[309.035][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "for\u00B7swear also fore\u00B7swear \u00A0(f\u00F4r-sw\u00E2r, fr-)\nv. for\u00B7swore also fore\u00B7swore (f\u00F4r-sw\u00F4r, fr-sw..."
+}
+
+[309.040][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/malady"
+}
+
+[309.040][FINER]:   Waiting for all views to stop loading...
+[309.041][FINER]:   Done waiting for all views to stop loading
+[311.326][FINER]:   Waiting for all views to stop loading...
+[311.332][FINER]:   Done waiting for all views to stop loading
+[311.332][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[312.336][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[312.336][FINER]:   Waiting for all views to stop loading...
+[312.337][FINER]:   Done waiting for all views to stop loading
+[312.343][FINER]:   Waiting for all views to stop loading...
+[312.343][FINER]:   Done waiting for all views to stop loading
+[312.343][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "mal\u00B7a\u00B7dy \u00A0(ml-d)\nn. pl. mal\u00B7a\u00B7dies\n1. A disease, a disorder, or an ailment.\n2. An unwholesom..."
+}
+
+[312.354][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/ulcerous"
+}
+
+[312.354][FINER]:   Waiting for all views to stop loading...
+[312.355][FINER]:   Done waiting for all views to stop loading
+[314.463][FINER]:   Waiting for all views to stop loading...
+[314.463][FINER]:   Done waiting for all views to stop loading
+[314.463][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[315.470][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[315.470][FINER]:   Waiting for all views to stop loading...
+[315.471][FINER]:   Done waiting for all views to stop loading
+[315.477][FINER]:   Waiting for all views to stop loading...
+[315.477][FINER]:   Done waiting for all views to stop loading
+[315.477][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "ul\u00B7cer\u00B7ous \u00A0(lsr-s)\nadj.\n1. Of the nature of ulcers or an ulcer.\n2. Having ulcers or an ulcer...."
+}
+
+[315.484][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/betimes"
+}
+
+[315.484][FINER]:   Waiting for all views to stop loading...
+[315.485][FINER]:   Done waiting for all views to stop loading
+[317.852][FINER]:   Waiting for all views to stop loading...
+[317.858][FINER]:   Done waiting for all views to stop loading
+[317.859][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[318.864][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[318.864][FINER]:   Waiting for all views to stop loading...
+[318.865][FINER]:   Done waiting for all views to stop loading
+[318.871][FINER]:   Waiting for all views to stop loading...
+[318.871][FINER]:   Done waiting for all views to stop loading
+[318.871][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": "be\u00B7times \u00A0(b-tmz)\nadv.\n1. In good time; early: \"A beneficent microclimate brings out the camell..."
+}
+
+[318.876][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/url) with params {
+   "url": "http://www.thefreedictionary.com/niggard"
+}
+
+[318.876][FINER]:   Waiting for all views to stop loading...
+[318.877][FINER]:   Done waiting for all views to stop loading
+[321.662][FINER]:   Waiting for all views to stop loading...
+[321.662][FINER]:   Done waiting for all views to stop loading
+[321.662][FINE]:    Command finished (/session/22e36fdca1bff5904c2214149f2a59c1/url) with response {
+   "sessionId": "22e36fdca1bff5904c2214149f2a59c1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[322.665][FINE]:    Command received (/session/22e36fdca1bff5904c2214149f2a59c1/execute) with params {
+   "args": [  ],
+   "script": "return document.querySelectorAll('div#MainTxt table')[0].innerText"
+}
+
+[322.665][FINER]:   Waiting for all views to stop loading...

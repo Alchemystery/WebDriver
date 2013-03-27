@@ -312,11 +312,11 @@ public class Driver {
     }
     
  
-    public void sleep(int duration) {
+    public static void sleep(int duration) {
         try {
             Thread.sleep(duration);
         } catch (InterruptedException e) {
-            cout("sleep() " + e.getMessage());
+            //cout("sleep() " + e.getMessage());
         }
     }
     
@@ -342,12 +342,11 @@ public class Driver {
             try {
                 return (String) js.executeScript(query);
             }catch(Exception e) {
-                cout("jQueryString() " + e.getMessage());
+                //cout("jQueryString() " + e.getMessage());
             }
-            return null;
+            return "";
         }
     
-
 
      
      public void alertAccept() {
